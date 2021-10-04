@@ -15,7 +15,7 @@ In this folder:
       - In a few instances, you will not be able to find the analogous C36 parameters. This happens for a few angles and dihedrals. In that case,find the closest 
         interaction. For example, if you have CT2 TC CG2R61, and you dont find the exact interaction in C36 parameters,i.e.,CG321 CG201 CG2R61. In this case, find the closest angle to CG321 CG201 CG2R61.
         
-3. If all errors are resolved, all command in ./model.bash should be executed. You will end up with a peptoid that has been solvated, charged neutralized with ions
+3. If all errors are resolved, all commands in ./model.bash should be executed. You will end up with a peptoid that has been solvated, charged neutralized with ions
 (if needed), and energy minimized.
 
 4. Next run ./model_1.bash. This will be a short production run MD on your desktop. 
