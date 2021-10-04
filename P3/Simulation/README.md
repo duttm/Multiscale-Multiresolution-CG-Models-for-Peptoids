@@ -22,4 +22,4 @@ In this folder:
 5. Follow this with a long production run on a supercomputer. 
 
 
-For step 4 and 5, plumed data files are required. This is described in P3/Plumed
+For step 5, plumed data file is required. This is described in P3/Plumed
