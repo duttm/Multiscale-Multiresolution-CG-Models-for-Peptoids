@@ -14,4 +14,5 @@ In this folder:
        b. Some parameters with half half and half atoms of C22 and C36: For example, an angle maybe of the form CT2 TC CG2R61. Here, we will find the analogous of the
           angle in C36 (as in all atoms will be C36).
        c. In a few instances, you will not be able to find the analogous C36 parameters. This happens for a few angles and dihedrals. In that case,find the closest 
-       interaction and use it to define the interaction. For example, if you have CT2 TC CG2R61, and you dont find the exact interaction in C36 parameters be
+       interaction and use it to define the interaction. For example, if you have CT2 TC CG2R61, and you dont find the exact interaction in C36 parameters, i.e., CG321 CG201 CG2R61. In this case, find the closest angle to CG321 CG201 CG2R61.
+
