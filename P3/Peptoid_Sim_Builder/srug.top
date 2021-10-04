@@ -1,0 +1,25 @@
+#include "package/charmm36-mod-6-19.ff//forcefield.itp"
+
+; additional params for the molecule
+#include "srug.prm"
+
+#include "srug.itp"
+
+#include "package/charmm36-mod-6-19.ff//tip3p.itp"
+#ifdef POSRES_WATER
+; Position restraint for each water oxygen
+[ position_restraints ]
+;  i funct		 fcx		fcy		   fcz
+   1	1		1000	   1000		  1000
+#endif
+
+; Include topology for ions
+#include "package/charmm36-mod-6-19.ff//ions.itp"
+
+[ system ]
+; Name
+mol in water
+
+[ molecules ]
+; Compound		  #mols
+SRUG			<enter value here>
