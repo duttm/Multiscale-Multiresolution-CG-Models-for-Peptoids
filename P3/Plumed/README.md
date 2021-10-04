@@ -4,7 +4,7 @@ Plumed is used to implement an enhanced sampling technique known as Metadynamics
 Calpha - Carbonyl_carbon- Nitrogen - Calpha needs to sample cis and trans isomerization states. A unbiased MD simulation cannot do so
 within a reasonable amount of time. MetaD helps in sampling both cis and trans states of the omega dihedral within a minimum of 20 ns.
 
-The MetaD potentials are not only limited to the omega dihedrals. They are also applied on the psi,phi and side chain dihedral angles (guided by the procedure described by Ferguson et al).
+The MetaD potentials are not only limited to the omega dihedrals. They are also applied on the psi,phi and side chain dihedral angles (guided by Ferguson et al).
 
 Since all these dihedrals needs to be indexed by their serial IDs, a script is required. 
 
