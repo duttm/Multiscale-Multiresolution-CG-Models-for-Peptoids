@@ -11,11 +11,11 @@ is the only information given in the MFTOID FF)
 
 # What are the changes?
 
-TC Set to +0.51
-O Set to -0.51
-NH1 Set to -0.42
-Backbone Ca Set to 0.03
-Sidechain Ca (Only applicable to PME-O- and NLYS)  Set to -0.04
+TC Set to +0.51  
+O Set to -0.51  
+NH1 Set to -0.42  
+Backbone Ca Set to 0.03  
+Sidechain Ca (Only applicable to PME-O- and NLYS)  Set to -0.04  
 
 
 # Some other points
