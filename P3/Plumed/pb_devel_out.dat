@@ -1,0 +1,209 @@
+##provides info on the molecules present in the system##
+MOLINFO MOLTYPE=protein STRUCTURE=srug_ini.pdb
+WHOLEMOLECULES ENTITY0=1-280, ENTITY1=281-560, ENTITY2=561-840
+ 
+ 
+##ome is calpha to calpha 
+
+ 
+ 
+ome1: TORSION ATOMS=14,15,24,25
+ome2: TORSION ATOMS=25,26,35,36
+ome3: TORSION ATOMS=36,37,46,47
+ome4: TORSION ATOMS=47,48,58,59
+ome5: TORSION ATOMS=59,60,69,70
+ome6: TORSION ATOMS=70,71,80,81
+ome7: TORSION ATOMS=81,82,91,92
+ome8: TORSION ATOMS=92,93,102,103
+ome9: TORSION ATOMS=103,104,113,114
+ome10: TORSION ATOMS=114,115,125,126
+ome11: TORSION ATOMS=3,4,13,14
+
+ 
+ 
+## psi is nitrogen to nitrogen 
+psi1: TORSION ATOMS=127,126,125,115
+psi2: TORSION ATOMS=115,114,113,104
+psi3: TORSION ATOMS=104,103,102,93
+psi4: TORSION ATOMS=93,92,91,82
+psi5: TORSION ATOMS=82,81,80,71
+psi6: TORSION ATOMS=71,70,69,60
+psi7: TORSION ATOMS=60,59,58,48
+psi8: TORSION ATOMS=48,47,46,37
+psi9: TORSION ATOMS=37,36,35,26
+psi10: TORSION ATOMS=26,25,24,15
+psi11: TORSION ATOMS=15,14,13,4
+psi12: TORSION ATOMS=4,3,2,1
+
+ 
+ 
+##phi is carbonyl carbon to carbonyl carbon 
+phi1: TORSION ATOMS=125,115,114,113
+phi2: TORSION ATOMS=113,104,103,102
+phi3: TORSION ATOMS=102,93,92,91
+phi4: TORSION ATOMS=91,82,81,80
+phi5: TORSION ATOMS=80,71,70,69
+phi6: TORSION ATOMS=69,60,59,58
+phi7: TORSION ATOMS=58,48,47,46
+phi8: TORSION ATOMS=46,37,36,35
+phi9: TORSION ATOMS=35,26,25,24
+phi10: TORSION ATOMS=24,15,14,13
+phi11: TORSION ATOMS=2,3,4,13
+
+ 
+ 
+# dihedral between peptoid backbone and side chain residues 
+nspe1: TORSION ATOMS=3,4,5,6
+nspe2: TORSION ATOMS=25,26,27,28
+nspe3: TORSION ATOMS=36,37,38,45
+nspe4: TORSION ATOMS=59,60,61,68
+nspe5: TORSION ATOMS=70,71,72,73
+nspe6: TORSION ATOMS=92,93,94,101
+nspe7: TORSION ATOMS=103,104,105,112
+nspe8: TORSION ATOMS=126,127,128,135
+npme1: TORSION ATOMS=47,48,49,50
+npme2: TORSION ATOMS=114,115,116,117
+nlys1: TORSION ATOMS=14,15,16,17
+nlys2: TORSION ATOMS=81,82,83,84
+##ome is calpha to calpha 
+
+ 
+ 
+ome12: TORSION ATOMS=294,295,304,305
+ome13: TORSION ATOMS=305,306,315,316
+ome14: TORSION ATOMS=316,317,326,327
+ome15: TORSION ATOMS=327,328,338,339
+ome16: TORSION ATOMS=339,340,349,350
+ome17: TORSION ATOMS=350,351,360,361
+ome18: TORSION ATOMS=361,362,371,372
+ome19: TORSION ATOMS=372,373,382,383
+ome20: TORSION ATOMS=383,384,393,394
+ome21: TORSION ATOMS=394,395,405,406
+ome22: TORSION ATOMS=283,284,293,294
+
+ 
+ 
+## psi is nitrogen to nitrogen 
+psi13: TORSION ATOMS=407,406,405,395
+psi14: TORSION ATOMS=395,394,393,384
+psi15: TORSION ATOMS=384,383,382,373
+psi16: TORSION ATOMS=373,372,371,362
+psi17: TORSION ATOMS=362,361,360,351
+psi18: TORSION ATOMS=351,350,349,340
+psi19: TORSION ATOMS=340,339,338,328
+psi20: TORSION ATOMS=328,327,326,317
+psi21: TORSION ATOMS=317,316,315,306
+psi22: TORSION ATOMS=306,305,304,295
+psi23: TORSION ATOMS=295,294,293,284
+psi24: TORSION ATOMS=284,283,282,281
+
+ 
+ 
+##phi is carbonyl carbon to carbonyl carbon 
+phi12: TORSION ATOMS=405,395,394,393
+phi13: TORSION ATOMS=393,384,383,382
+phi14: TORSION ATOMS=382,373,372,371
+phi15: TORSION ATOMS=371,362,361,360
+phi16: TORSION ATOMS=360,351,350,349
+phi17: TORSION ATOMS=349,340,339,338
+phi18: TORSION ATOMS=338,328,327,326
+phi19: TORSION ATOMS=326,317,316,315
+phi20: TORSION ATOMS=315,306,305,304
+phi21: TORSION ATOMS=304,295,294,293
+phi22: TORSION ATOMS=282,283,284,293
+
+ 
+ 
+# dihedral between peptoid backbone and side chain residues 
+nspe9: TORSION ATOMS=283,284,285,286
+nspe10: TORSION ATOMS=305,306,307,308
+nspe11: TORSION ATOMS=316,317,318,325
+nspe12: TORSION ATOMS=339,340,341,348
+nspe13: TORSION ATOMS=350,351,352,353
+nspe14: TORSION ATOMS=372,373,374,381
+nspe15: TORSION ATOMS=383,384,385,392
+nspe16: TORSION ATOMS=406,407,408,415
+npme3: TORSION ATOMS=327,328,329,330
+npme4: TORSION ATOMS=394,395,396,397
+nlys3: TORSION ATOMS=294,295,296,297
+nlys4: TORSION ATOMS=361,362,363,364
+##ome is calpha to calpha 
+
+ 
+ 
+ome23: TORSION ATOMS=574,575,584,585
+ome24: TORSION ATOMS=585,586,595,596
+ome25: TORSION ATOMS=596,597,606,607
+ome26: TORSION ATOMS=607,608,618,619
+ome27: TORSION ATOMS=619,620,629,630
+ome28: TORSION ATOMS=630,631,640,641
+ome29: TORSION ATOMS=641,642,651,652
+ome30: TORSION ATOMS=652,653,662,663
+ome31: TORSION ATOMS=663,664,673,674
+ome32: TORSION ATOMS=674,675,685,686
+ome33: TORSION ATOMS=563,564,573,574
+
+ 
+ 
+## psi is nitrogen to nitrogen 
+psi25: TORSION ATOMS=687,686,685,675
+psi26: TORSION ATOMS=675,674,673,664
+psi27: TORSION ATOMS=664,663,662,653
+psi28: TORSION ATOMS=653,652,651,642
+psi29: TORSION ATOMS=642,641,640,631
+psi30: TORSION ATOMS=631,630,629,620
+psi31: TORSION ATOMS=620,619,618,608
+psi32: TORSION ATOMS=608,607,606,597
+psi33: TORSION ATOMS=597,596,595,586
+psi34: TORSION ATOMS=586,585,584,575
+psi35: TORSION ATOMS=575,574,573,564
+psi36: TORSION ATOMS=564,563,562,561
+
+ 
+ 
+##phi is carbonyl carbon to carbonyl carbon 
+phi23: TORSION ATOMS=685,675,674,673
+phi24: TORSION ATOMS=673,664,663,662
+phi25: TORSION ATOMS=662,653,652,651
+phi26: TORSION ATOMS=651,642,641,640
+phi27: TORSION ATOMS=640,631,630,629
+phi28: TORSION ATOMS=629,620,619,618
+phi29: TORSION ATOMS=618,608,607,606
+phi30: TORSION ATOMS=606,597,596,595
+phi31: TORSION ATOMS=595,586,585,584
+phi32: TORSION ATOMS=584,575,574,573
+phi33: TORSION ATOMS=562,563,564,573
+
+ 
+ 
+# dihedral between peptoid backbone and side chain residues 
+nspe17: TORSION ATOMS=563,564,565,566
+nspe18: TORSION ATOMS=585,586,587,588
+nspe19: TORSION ATOMS=596,597,598,605
+nspe20: TORSION ATOMS=619,620,621,628
+nspe21: TORSION ATOMS=630,631,632,633
+nspe22: TORSION ATOMS=652,653,654,661
+nspe23: TORSION ATOMS=663,664,665,672
+nspe24: TORSION ATOMS=686,687,688,695
+npme5: TORSION ATOMS=607,608,609,610
+npme6: TORSION ATOMS=674,675,676,677
+nlys5: TORSION ATOMS=574,575,576,577
+nlys6: TORSION ATOMS=641,642,643,644
+
+ 
+ 
+
+ 
+ 
+PBMETAD ... 
+ARG=ome1,ome2,ome3,ome4,ome5,ome6,ome7,ome8,ome9,ome10,ome11,ome12,ome13,ome14,ome15,ome16,ome17,ome18,ome19,ome20,ome21,ome22,ome23,ome24,ome25,ome26,ome27,ome28,ome29,ome30,ome31,ome32,ome33,psi1,psi2,psi3,psi4,psi5,psi6,psi7,psi8,psi9,psi10,psi11,psi12,psi13,psi14,psi15,psi16,psi17,psi18,psi19,psi20,psi21,psi22,psi23,psi24,psi25,psi26,psi27,psi28,psi29,psi30,psi31,psi32,psi33,psi34,psi35,psi36,phi1,phi2,phi3,phi4,phi5,phi6,phi7,phi8,phi9,phi10,phi11,phi12,phi13,phi14,phi15,phi16,phi17,phi18,phi19,phi20,phi21,phi22,phi23,phi24,phi25,phi26,phi27,phi28,phi29,phi30,phi31,phi32,phi33,nspe1,nspe2,nspe3,nspe4,nspe5,nspe6,nspe7,nspe8,nspe9,nspe10,nspe11,nspe12,nspe13,nspe14,nspe15,nspe16,nspe17,nspe18,nspe19,nspe20,nspe21,nspe22,nspe23,nspe24,npme1,npme2,npme3,npme4,npme5,npme6,nlys1,nlys2,nlys3,nlys4,nlys5,nlys6
+SIGMA=0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3
+HEIGHT=1.2 #kJ/mol
+PACE=500
+BIASFACTOR=10
+LABEL=pb
+GRID_MIN=-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi
+GRID_MAX=pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi
+FILE=HILLS.ome1,HILLS.ome2,HILLS.ome3,HILLS.ome4,HILLS.ome5,HILLS.ome6,HILLS.ome7,HILLS.ome8,HILLS.ome9,HILLS.ome10,HILLS.ome11,HILLS.ome12,HILLS.ome13,HILLS.ome14,HILLS.ome15,HILLS.ome16,HILLS.ome17,HILLS.ome18,HILLS.ome19,HILLS.ome20,HILLS.ome21,HILLS.ome22,HILLS.ome23,HILLS.ome24,HILLS.ome25,HILLS.ome26,HILLS.ome27,HILLS.ome28,HILLS.ome29,HILLS.ome30,HILLS.ome31,HILLS.ome32,HILLS.ome33,HILLS.psi1,HILLS.psi2,HILLS.psi3,HILLS.psi4,HILLS.psi5,HILLS.psi6,HILLS.psi7,HILLS.psi8,HILLS.psi9,HILLS.psi10,HILLS.psi11,HILLS.psi12,HILLS.psi13,HILLS.psi14,HILLS.psi15,HILLS.psi16,HILLS.psi17,HILLS.psi18,HILLS.psi19,HILLS.psi20,HILLS.psi21,HILLS.psi22,HILLS.psi23,HILLS.psi24,HILLS.psi25,HILLS.psi26,HILLS.psi27,HILLS.psi28,HILLS.psi29,HILLS.psi30,HILLS.psi31,HILLS.psi32,HILLS.psi33,HILLS.psi34,HILLS.psi35,HILLS.psi36,HILLS.phi1,HILLS.phi2,HILLS.phi3,HILLS.phi4,HILLS.phi5,HILLS.phi6,HILLS.phi7,HILLS.phi8,HILLS.phi9,HILLS.phi10,HILLS.phi11,HILLS.phi12,HILLS.phi13,HILLS.phi14,HILLS.phi15,HILLS.phi16,HILLS.phi17,HILLS.phi18,HILLS.phi19,HILLS.phi20,HILLS.phi21,HILLS.phi22,HILLS.phi23,HILLS.phi24,HILLS.phi25,HILLS.phi26,HILLS.phi27,HILLS.phi28,HILLS.phi29,HILLS.phi30,HILLS.phi31,HILLS.phi32,HILLS.phi33,HILLS.nspe1,HILLS.nspe2,HILLS.nspe3,HILLS.nspe4,HILLS.nspe5,HILLS.nspe6,HILLS.nspe7,HILLS.nspe8,HILLS.nspe9,HILLS.nspe10,HILLS.nspe11,HILLS.nspe12,HILLS.nspe13,HILLS.nspe14,HILLS.nspe15,HILLS.nspe16,HILLS.nspe17,HILLS.nspe18,HILLS.nspe19,HILLS.nspe20,HILLS.nspe21,HILLS.nspe22,HILLS.nspe23,HILLS.nspe24,HILLS.npme1,HILLS.npme2,HILLS.npme3,HILLS.npme4,HILLS.npme5,HILLS.npme6,HILLS.nlys1,HILLS.nlys2,HILLS.nlys3,HILLS.nlys4,HILLS.nlys5,HILLS.nlys6
+... PBMETAD
+PRINT ARG=ome1,ome2,ome3,ome4,ome5,ome6,ome7,ome8,ome9,ome10,ome11,ome12,ome13,ome14,ome15,ome16,ome17,ome18,ome19,ome20,ome21,ome22,ome23,ome24,ome25,ome26,ome27,ome28,ome29,ome30,ome31,ome32,ome33,psi1,psi2,psi3,psi4,psi5,psi6,psi7,psi8,psi9,psi10,psi11,psi12,psi13,psi14,psi15,psi16,psi17,psi18,psi19,psi20,psi21,psi22,psi23,psi24,psi25,psi26,psi27,psi28,psi29,psi30,psi31,psi32,psi33,psi34,psi35,psi36,phi1,phi2,phi3,phi4,phi5,phi6,phi7,phi8,phi9,phi10,phi11,phi12,phi13,phi14,phi15,phi16,phi17,phi18,phi19,phi20,phi21,phi22,phi23,phi24,phi25,phi26,phi27,phi28,phi29,phi30,phi31,phi32,phi33,nspe1,nspe2,nspe3,nspe4,nspe5,nspe6,nspe7,nspe8,nspe9,nspe10,nspe11,nspe12,nspe13,nspe14,nspe15,nspe16,nspe17,nspe18,nspe19,nspe20,nspe21,nspe22,nspe23,nspe24,npme1,npme2,npme3,npme4,npme5,npme6,nlys1,nlys2,nlys3,nlys4,nlys5,nlys6 STRIDE=500 FILE=COLVAR
