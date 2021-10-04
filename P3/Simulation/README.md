@@ -18,3 +18,8 @@ In this folder:
 3. If all errors are resolved, all command in ./model.bash should be executed. You will end up with a peptoid that has been solvated, charged neutralized with ions
 (if needed), and energy minimized.
 
+4. Next run ./model_1.bash. This will be a short production run MD on your desktop. 
+5. Follow this with a long production run on a supercomputer. 
+
+
+For step 4 and 5, plumed data files are required. This is described in P3/Plumed
