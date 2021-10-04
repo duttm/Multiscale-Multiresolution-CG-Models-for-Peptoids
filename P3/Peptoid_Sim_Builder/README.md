@@ -1,6 +1,4 @@
-#Use this folder?
-
-To run multi-peptoid simulations
+# Purpose of this folder is to run multi-peptoid simulations
 
 Prerequisites:
 1. Modified Charmm FF folder. 
