@@ -28,7 +28,7 @@ These are my notes for P3:
 
 1. Assign charge to Backbone Alpha Carbons = 0.03 and atom  ID=CT2
 
-            Serial 1D = 3, 14, 25, 36, 47, 59, 70, 81, 82, 103, 114, 126
+     Serial 1D = 3, 14, 25, 36, 47, 59, 70, 81, 82, 103, 114, 126
 
  2. The Alpha carbon side chains for NLYS need to have a charge of -0.04, and atom ID= CT2
  
