@@ -9,6 +9,6 @@ Prerequisites:
 How to run:
 
 1. You need to add the number of peptoids manually in .top file
-2. run ./driver.bash <box dimension> <number of peptoids to add>
+2. run ./driver.bash 'box dimension' 'number of peptoids to add'
   
 Please note: if the number of peptoids to add = 0, you will be running a single peptoid simulation.
