@@ -1,1 +1,1 @@
-Code to build, launch and analyze CG simulations
+# Code to Build, Launch and Analyze CG Simulations
