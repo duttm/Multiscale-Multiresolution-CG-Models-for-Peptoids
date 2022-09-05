@@ -32,7 +32,7 @@ Run the script with all data files as input arguments:
 The script `cluster_merger.bash` is a wrapper around a python script that takes care of plotting the clustering data. <br>
 The script dumps an image file (`clusters.png`) where the number of clusters are plotted against the simulation time steps. 
 
-## Coding technqiues: 
+## Coding techniques: 
 
 1. awk commands: pre-processing cluster count data files.
 2. python lists: storing the data
