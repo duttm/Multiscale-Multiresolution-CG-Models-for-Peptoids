@@ -1,0 +1,84 @@
+##provides info on the molecules present in the system##
+MOLINFO MOLTYPE=protein STRUCTURE=srug_ini.pdb
+WHOLEMOLECULES ENTITY0=1-280
+
+
+
+# each dihedral angle for a specific residue##
+
+##ome is calpha to calpha
+
+ome1: TORSION ATOMS=14,15,24,25
+ome2: TORSION ATOMS=25,26,35,36
+ome3: TORSION ATOMS=36,37,46,47
+ome4: TORSION ATOMS=47,48,58,59
+ome5: TORSION ATOMS=59,60,69,70
+ome6: TORSION ATOMS=70,71,80,81
+ome7: TORSION ATOMS=81,82,91,92
+ome8: TORSION ATOMS=92,93,102,103
+ome9: TORSION ATOMS=103,104,113,114
+ome10: TORSION ATOMS=114,115,125,126
+ome11: TORSION ATOMS=3,4,13,14
+
+
+## psi is nitrogen to nitrogen
+
+psi1: TORSION ATOMS=127,126,125,115
+psi2: TORSION ATOMS=115,114,113,104
+psi3: TORSION ATOMS=104,103,102,93
+psi4: TORSION ATOMS=93,92,91,82
+psi5: TORSION ATOMS=82,81,80,71
+psi6: TORSION ATOMS=71,70,69,60
+psi7: TORSION ATOMS=60,59,58,48
+psi8: TORSION ATOMS=48,47,46,37
+psi9: TORSION ATOMS=37,36,35,26
+psi10: TORSION ATOMS=26,25,24,15
+psi11: TORSION ATOMS=15,14,13,4
+psi12: TORSION ATOMS=4,3,2,1
+
+
+
+##phi is carbonyl carbon to carbonyl carbon
+
+phi1: TORSION ATOMS=125,115,114,113
+phi2: TORSION ATOMS=113,104,103,102
+phi3: TORSION ATOMS=102,93,92,91
+phi4: TORSION ATOMS=91,82,81,80
+phi5: TORSION ATOMS=80,71,70,69
+phi6: TORSION ATOMS=69,60,59,58
+phi7: TORSION ATOMS=58,48,47,46
+phi8: TORSION ATOMS=46,37,36,35
+phi9: TORSION ATOMS=35,26,25,24
+phi10: TORSION ATOMS=24,15,14,13
+phi11: TORSION ATOMS=2,3,4,13
+
+
+
+# dihedral between peptoid backbone and bromobenzene
+
+Nspe1: TORSION ATOMS=3,4,5,6
+NLys1: TORSION ATOMS=14,15,16,17
+Nspe2: TORSION ATOMS=25,26,27,28
+Nspe3: TORSION ATOMS=36,37,38,45
+Npme1: TORSION ATOMS=47,48,49,50
+Nspe4: TORSION ATOMS=59,60,61,68
+Nspe5: TORSION ATOMS=70,71,72,73
+NLys2: TORSION ATOMS=81,82,83,84
+Nspe6: TORSION ATOMS=92,93,94,101
+Nspe7: TORSION ATOMS=103,104,105,112
+Npme2: TORSION ATOMS=114,115,116,117
+Nspe8: TORSION ATOMS=126,127,128,135
+
+
+PBMETAD ...
+ARG=ome1,ome2,ome3,ome4,ome5,ome6,ome7,ome8,ome9,ome10,ome11,Nspe1,Nspe2,Nspe3,Nspe4,Nspe5,Nspe6,Nspe7,Nspe8,Npme1,Npme2,NLys1,NLys2,psi1,psi2,psi3,psi4,psi5,psi6,psi7,psi8,psi8,psi9,psi10,psi11,psi12,phi1,phi2,phi3,phi4,phi5,phi6,phi7,phi8,phi9,phi10,phi11
+SIGMA=0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3,0.3
+HEIGHT=1.2 #kJ/mol
+PACE=500 
+BIASFACTOR=10
+LABEL=pb
+GRID_MIN=-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi,-pi
+GRID_MAX=pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi,pi
+FILE=HILLS.ome1,HILLS.ome2,HILLS.ome3,HILLS.ome4,HILLS.ome5,HILLS.ome6,HILLS.ome7,HILLS.ome8,HILLS.ome9,HILLS.ome10,HILLS.ome11,HILLS.Nspe1,HILLS.Nspe2,HILLS.Nspe3,HILLS.Nspe4,HILLS.Nspe5,HILLS.Nspe6,HILLS.Nspe7,HILLS.Nspe8,HILLS.Npme1,HILLS.Npme2,HILLS.NLys1,HILLS.NLys2,HILLS.psi1,HILLS.psi2,HILLS.psi3,HILLS.psi4,HILLS.psi5,HILLS.psi6,HILLS.psi7,HILLS.psi8,HILLS.psi8,HILLS.psi9,HILLS.psi10,HILLS.psi11,HILLS.psi12,HILLS.phi1,HILLS.phi2,HILLS.phi3,HILLS.phi4,HILLS.phi5,HILLS.phi6,HILLS.phi7,HILLS.phi8,HILLS.phi9,HILLS.phi10,HILLS.phi11
+... PBMETAD
+PRINT ARG=ome1,ome2,ome3,ome4,ome5,ome6,ome7,ome8,ome9,ome10,ome11,Nspe1,Nspe2,Nspe3,Nspe4,Nspe5,Nspe6,Nspe7,Nspe8,Npme1,Npme2,NLys1,NLys2,psi1,psi2,psi3,psi4,psi5,psi6,psi7,psi8,psi8,psi9,psi10,psi11,psi12,phi1,phi2,phi3,phi4,phi5,phi6,phi7,phi8,phi9,phi10,phi11 STRIDE=500 FILE=COLVAR

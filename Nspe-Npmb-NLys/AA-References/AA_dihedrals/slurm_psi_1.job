@@ -1,0 +1,23 @@
+#!/bin/bash
+#SBATCH -N 1
+#SBATCH -p RM-shared
+#SBATCH --ntasks-per-node=1
+#SBATCH -t 02:00:00
+#SBATCH --mail-type=ALL
+#SBATCH --mail-user=XXXXXXX
+
+module load gromacs/2020.2-cpu
+
+declare -a arrold=("psi1" "pis2" "psi3" "psi4" "psi5" "psi6" "psi7" "psi8" "psi9" "psi10" "psi11" "psi12") ## C36 parameters
+
+
+ 
+for i in {0..11} ; do
+ 
+ echo ${arrold[i]} | mpirun -np 1 gmx_mpi angle -f ../18-input.xtc  -type dihedral -ov "${arrold[i]}_metaD.xvg" -n index_diheds.ndx
+done
+ 
+ 
+
+ 
+

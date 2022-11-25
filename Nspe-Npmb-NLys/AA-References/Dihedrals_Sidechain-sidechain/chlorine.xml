@@ -1,0 +1,22 @@
+<cg_molecule>
+  <name>CL</name> <!-- the name of the molecule after mapping -->
+  <ident>CL</ident> <!-- the name of the molecule in atomistic topology --> 
+  <topology>
+    <cg_beads>
+      <cg_bead>
+        <name>CL</name>
+        <type>I</type>
+        <mapping>I</mapping>
+        <beads>
+          1:CL:CL   
+        </beads>
+      </cg_bead>
+    </cg_beads>
+  </topology>
+  <maps>
+    <map>
+      <name>I</name>
+      <weights>35.5</weights>
+    </map>
+  </maps>
+</cg_molecule>

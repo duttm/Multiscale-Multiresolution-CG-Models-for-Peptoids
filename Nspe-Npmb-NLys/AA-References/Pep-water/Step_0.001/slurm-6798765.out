@@ -1,0 +1,11 @@
++ top=2018.tpr
++ trj=18-input.xtc
++ echo Calculating distributions
+Calculating distributions
++ csg_stat --top 2018.tpr --trj ../18-input.xtc --cg 'P3_NB.xml;water.xml;chlorine.xml' --options setting_pep-water.xml --begin 100000
+/var/spool/slurm/d/job6798765/slurm_script: line 19: csg_stat: command not found
++ mkdir Dists
++ cp '*.new' Dists/
+cp: cannot stat '*.new': No such file or directory
++ rm '*.new'
+rm: cannot remove '*.new': No such file or directory

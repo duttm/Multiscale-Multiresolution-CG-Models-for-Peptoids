@@ -1,0 +1,49 @@
+tab set T 300
+
+
+tab set scale PMEO1-PMEO2
+tab set flag periodic
+tab set auto 0
+tab set min 0.184
+tab set max 0.222
+tab set n 20
+tab PMEO1-PMEO2.pot.ib *PMEO1-PMEO2*
+
+
+tab set scale PMEO2-PMEO3
+tab set flag periodic
+tab set auto 0
+tab set min 0.202
+tab set max 0.224
+tab set n 20
+tab PMEO2-PMEO3.pot.ib *PMEO2-PMEO3*
+
+
+tab set scale PMEO3-PMEO4
+tab set flag periodic
+tab set auto 0
+tab set min 0.212
+tab set max 0.234
+tab set n 20
+tab PMEO3-PMEO4.pot.ib *PMEO3-PMEO4*
+
+
+tab set scale PMEO2-PMEO4
+tab set flag periodic
+tab set auto 0
+tab set min 0.21
+tab set max 0.234
+tab set n 20
+tab PMEO2-PMEO4.pot.ib *PMEO2-PMEO4*
+
+
+tab set scale PMEO3-PMEO5
+tab set flag periodic
+tab set auto 0
+tab set min 0.198
+tab set max 0.262
+tab set n 20
+tab PMEO3-PMEO5.pot.ib *PMEO3-PMEO5*
+
+
+q

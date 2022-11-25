@@ -1,0 +1,76 @@
+tab set T 300
+
+
+tab set scale BB1-BB3-BB5
+tab set flag periodic
+tab set auto 0
+tab set min 0.6587016129
+tab set max 3.1415
+tab set n 100
+tab BB1-BB3-BB5.pot.ib *BB1-BB3-BB5*
+
+
+tab set scale BB2-BB4-BB6
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 3.1415
+tab set n 100
+tab BB2-BB4-BB6.pot.ib *BB2-BB4-BB6*
+
+
+tab set scale BB3-BB5-BB7
+tab set flag periodic
+tab set auto 0
+tab set min 0.8107096774
+tab set max 3.1415
+tab set n 100
+tab BB3-BB5-BB7.pot.ib *BB3-BB5-BB7*
+
+
+tab set scale BB4-BB6-BB8
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 3.1415
+tab set n 100
+tab BB4-BB6-BB8.pot.ib *BB4-BB6-BB8*
+
+
+tab set scale BB5-BB7-BB9
+tab set flag periodic
+tab set auto 0
+tab set min 0.7600403226
+tab set max 3.1415
+tab set n 100
+tab BB5-BB7-BB9.pot.ib *BB5-BB7-BB9*
+
+
+tab set scale BB6-BB8-BB10
+tab set flag periodic
+tab set auto 0
+tab set min 0.8107096774
+tab set max 3.1415
+tab set n 100
+tab BB6-BB8-BB10.pot.ib *BB6-BB8-BB10*
+
+
+tab set scale BB7-BB9-BB11
+tab set flag periodic
+tab set auto 0
+tab set min 0.6587016129
+tab set max 3.1415
+tab set n 100
+tab BB7-BB9-BB11.pot.ib *BB7-BB9-BB11*
+
+
+tab set scale BB8-BB10-YC
+tab set flag periodic
+tab set auto 0
+tab set min 0.6080322581
+tab set max 3.1415
+tab set n 100
+tab BB8-BB10-YC.pot.ib *BB8-BB10-YC*
+
+
+q

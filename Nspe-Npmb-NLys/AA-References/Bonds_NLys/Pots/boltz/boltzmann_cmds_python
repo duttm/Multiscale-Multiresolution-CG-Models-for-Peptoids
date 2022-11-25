@@ -1,0 +1,22 @@
+tab set T 300
+
+
+tab set scale NLYS1-NLYS2
+tab set flag periodic
+tab set auto 0
+tab set min 0.18
+tab set max 0.224
+tab set n 20
+tab NLYS1-NLYS2.pot.ib *NLYS1-NLYS2*
+
+
+tab set scale NLYS2-NLYS3
+tab set flag periodic
+tab set auto 0
+tab set min 0.21
+tab set max 0.282
+tab set n 20
+tab NLYS2-NLYS3.pot.ib *NLYS2-NLYS3*
+
+
+q

@@ -1,0 +1,112 @@
+tab set T 300
+
+
+tab set scale bond-XBB1-A11
+tab set flag periodic
+tab set auto 0
+tab set min 0.232
+tab set max 0.278
+tab set n 20
+tab bond-XBB1-A11.pot.ib *bond-XBB1-A11*
+
+
+tab set scale bond-XBB2-C11
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.276
+tab set n 20
+tab bond-XBB2-C11.pot.ib *bond-XBB2-C11*
+
+
+tab set scale bond-XBB3-A21
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.276
+tab set n 20
+tab bond-XBB3-A21.pot.ib *bond-XBB3-A21*
+
+
+tab set scale bond-XBB4-A31
+tab set flag periodic
+tab set auto 0
+tab set min 0.232
+tab set max 0.276
+tab set n 20
+tab bond-XBB4-A31.pot.ib *bond-XBB4-A31*
+
+
+tab set scale bond-XBB5-B11
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.274
+tab set n 20
+tab bond-XBB5-B11.pot.ib *bond-XBB5-B11*
+
+
+tab set scale bond-XBB6-A41
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.274
+tab set n 20
+tab bond-XBB6-A41.pot.ib *bond-XBB6-A41*
+
+
+tab set scale bond-XBB7-A51
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.276
+tab set n 20
+tab bond-XBB7-A51.pot.ib *bond-XBB7-A51*
+
+
+tab set scale bond-XBB8-C21
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.274
+tab set n 20
+tab bond-XBB8-C21.pot.ib *bond-XBB8-C21*
+
+
+tab set scale bond-XBB9-A61
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.274
+tab set n 20
+tab bond-XBB9-A61.pot.ib *bond-XBB9-A61*
+
+
+tab set scale bond-XBB10-A71
+tab set flag periodic
+tab set auto 0
+tab set min 0.23
+tab set max 0.276
+tab set n 20
+tab bond-XBB10-A71.pot.ib *bond-XBB10-A71*
+
+
+tab set scale bond-XBB11-B21
+tab set flag periodic
+tab set auto 0
+tab set min 0.232
+tab set max 0.276
+tab set n 20
+tab bond-XBB11-B21.pot.ib *bond-XBB11-B21*
+
+
+tab set scale bond-YC-A81
+tab set flag periodic
+tab set auto 0
+tab set min 0.142
+tab set max 0.168
+tab set n 20
+tab bond-YC-A81.pot.ib *bond-YC-A81*
+
+
+q

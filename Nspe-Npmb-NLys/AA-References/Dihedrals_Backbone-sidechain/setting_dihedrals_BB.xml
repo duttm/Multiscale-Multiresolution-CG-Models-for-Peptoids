@@ -1,0 +1,223 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  
+  
+
+  
+   
+  <bonded>
+    <!-- name of the interaction -->
+    <name>YN-BB1-A11-A12</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>A13-A11-BB1-BB2</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>BB1-BB2-C11-C12</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>BB2-BB3-A21-A22</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>A23-A21-BB3-BB4</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB3-BB4-A31-A32</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>A33-A31-XBB4-XBB5</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB4-BB5-B11-B12</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>BB5-BB6-A41-A42</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>A43-A41-BB6-BB7</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+
+    <bonded>
+    <!-- name of the interaction -->
+    <name>A43-A41-BB6-BB7</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB6-BB7-A51-A52</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+    <bonded>
+    <!-- name of the interaction -->
+    <name>A53-A51-BB7-BB8</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB7-BB8-C21-C22</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB8-BB9-A61-A62</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+    <bonded>
+    <!-- name of the interaction -->
+    <name>A63-A61-BB9-BB10</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+      <bonded>
+    <!-- name of the interaction -->
+    <name>BB9-BB10-A71-A73</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+      <bonded>
+    <!-- name of the interaction -->
+    <name>A73-A71-BB10-BB11</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+        <bonded>
+    <!-- name of the interaction -->
+    <name>BB10-BB11-B21-B22</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+        <bonded>
+    <!-- name of the interaction -->
+    <name>BB11-YC-A81-A82</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+        <bonded>
+    <!-- name of the interaction -->
+    <name>A83-A81-YC-BB11</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+  
+
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

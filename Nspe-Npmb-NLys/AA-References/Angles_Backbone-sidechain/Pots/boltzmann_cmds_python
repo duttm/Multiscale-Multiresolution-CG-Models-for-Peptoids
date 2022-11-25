@@ -1,0 +1,391 @@
+tab set T 300
+
+
+tab set scale YN-XBB1-A11
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab YN-XBB1-A11.pot.ib *YN-XBB1-A11*
+
+
+tab set scale A11-XBB1-XBB2
+tab set flag periodic
+tab set auto 0
+tab set min 1.114725806
+tab set max 2.989491935
+tab set n 20
+tab A11-XBB1-XBB2.pot.ib *A11-XBB1-XBB2*
+
+
+tab set scale XBB1-A11-A12
+tab set flag periodic
+tab set auto 0
+tab set min 1.520080645
+tab set max 2.584137097
+tab set n 20
+tab XBB1-A11-A12.pot.ib *XBB1-A11-A12*
+
+
+tab set scale XBB1-A11-A13
+tab set flag periodic
+tab set auto 0
+tab set min 1.418741935
+tab set max 2.736145161
+tab set n 20
+tab XBB1-A11-A13.pot.ib *XBB1-A11-A13*
+
+
+tab set scale XBB1-XBB2-C11
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.57075
+tab set n 20
+tab XBB1-XBB2-C11.pot.ib *XBB1-XBB2-C11*
+
+
+tab set scale C11-XBB2-XBB3
+tab set flag periodic
+tab set auto 0
+tab set min 1.064056452
+tab set max 3.04016129
+tab set n 20
+tab C11-XBB2-XBB3.pot.ib *C11-XBB2-XBB3*
+
+
+tab set scale XBB2-C11-C12
+tab set flag periodic
+tab set auto 0
+tab set min 1.46941129
+tab set max 2.888153226
+tab set n 20
+tab XBB2-C11-C12.pot.ib *XBB2-C11-C12*
+
+
+tab set scale XBB2-XBB3-A21
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab XBB2-XBB3-A21.pot.ib *XBB2-XBB3-A21*
+
+
+tab set scale A21-XBB3-XBB4
+tab set flag periodic
+tab set auto 0
+tab set min 1.114725806
+tab set max 3.04016129
+tab set n 20
+tab A21-XBB3-XBB4.pot.ib *A21-XBB3-XBB4*
+
+
+tab set scale XBB3-A21-A22
+tab set flag periodic
+tab set auto 0
+tab set min 1.520080645
+tab set max 2.584137097
+tab set n 20
+tab XBB3-A21-A22.pot.ib *XBB3-A21-A22*
+
+
+tab set scale XBB3-A21-A23
+tab set flag periodic
+tab set auto 0
+tab set min 1.520080645
+tab set max 2.584137097
+tab set n 20
+tab XBB3-A21-A23.pot.ib *XBB3-A21-A23*
+
+
+tab set scale XBB3-XBB4-A31
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab XBB3-XBB4-A31.pot.ib *XBB3-XBB4-A31*
+
+
+tab set scale A31-XBB4-XBB5
+tab set flag periodic
+tab set auto 0
+tab set min 1.114725806
+tab set max 3.04016129
+tab set n 20
+tab A31-XBB4-XBB5.pot.ib *A31-XBB4-XBB5*
+
+
+tab set scale XBB4-A31-A32
+tab set flag periodic
+tab set auto 0
+tab set min 1.520080645
+tab set max 2.584137097
+tab set n 20
+tab XBB4-A31-A32.pot.ib *XBB4-A31-A32*
+
+
+tab set scale XBB4-A31-A33
+tab set flag periodic
+tab set auto 0
+tab set min 1.368072581
+tab set max 2.685475806
+tab set n 20
+tab XBB4-A31-A33.pot.ib *XBB4-A31-A33*
+
+
+tab set scale XBB4-XBB5-B11
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.57075
+tab set n 20
+tab XBB4-XBB5-B11.pot.ib *XBB4-XBB5-B11*
+
+
+tab set scale B11-XBB5-XBB6
+tab set flag periodic
+tab set auto 0
+tab set min 1.064056452
+tab set max 3.04016129
+tab set n 20
+tab B11-XBB5-XBB6.pot.ib *B11-XBB5-XBB6*
+
+
+tab set scale XBB5-B11-B12
+tab set flag periodic
+tab set auto 0
+tab set min 1.368072581
+tab set max 2.736145161
+tab set n 20
+tab XBB5-B11-B12.pot.ib *XBB5-B11-B12*
+
+
+tab set scale XBB5-XBB6-A41
+tab set flag periodic
+tab set auto 0
+tab set min 0.8107096774
+tab set max 1.621419355
+tab set n 20
+tab XBB5-XBB6-A41.pot.ib *XBB5-XBB6-A41*
+
+
+tab set scale A41-XBB6-XBB7
+tab set flag periodic
+tab set auto 0
+tab set min 1.216064516
+tab set max 3.090830645
+tab set n 20
+tab A41-XBB6-XBB7.pot.ib *A41-XBB6-XBB7*
+
+
+tab set scale XBB6-A41-A42
+tab set flag periodic
+tab set auto 0
+tab set min 1.520080645
+tab set max 2.584137097
+tab set n 20
+tab XBB6-A41-A42.pot.ib *XBB6-A41-A42*
+
+
+tab set scale XBB6-A41-A43
+tab set flag periodic
+tab set auto 0
+tab set min 1.418741935
+tab set max 2.736145161
+tab set n 20
+tab XBB6-A41-A43.pot.ib *XBB6-A41-A43*
+
+
+tab set scale XBB6-XBB7-A51
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab XBB6-XBB7-A51.pot.ib *XBB6-XBB7-A51*
+
+
+tab set scale A51-XBB7-XBB8
+tab set flag periodic
+tab set auto 0
+tab set min 1.114725806
+tab set max 3.090830645
+tab set n 20
+tab A51-XBB7-XBB8.pot.ib *A51-XBB7-XBB8*
+
+
+tab set scale XBB7-A51-A52
+tab set flag periodic
+tab set auto 0
+tab set min 1.520080645
+tab set max 2.584137097
+tab set n 20
+tab XBB7-A51-A52.pot.ib *XBB7-A51-A52*
+
+
+tab set scale XBB7-A51-A53
+tab set flag periodic
+tab set auto 0
+tab set min 1.418741935
+tab set max 2.736145161
+tab set n 20
+tab XBB7-A51-A53.pot.ib *XBB7-A51-A53*
+
+
+tab set scale XBB7-XBB8-C21
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.57075
+tab set n 20
+tab XBB7-XBB8-C21.pot.ib *XBB7-XBB8-C21*
+
+
+tab set scale C21-XBB8-XBB9
+tab set flag periodic
+tab set auto 0
+tab set min 1.114725806
+tab set max 3.04016129
+tab set n 20
+tab C21-XBB8-XBB9.pot.ib *C21-XBB8-XBB9*
+
+
+tab set scale XBB8-C21-C22
+tab set flag periodic
+tab set auto 0
+tab set min 1.46941129
+tab set max 2.938822581
+tab set n 20
+tab XBB8-C21-C22.pot.ib *XBB8-C21-C22*
+
+
+tab set scale XBB8-XBB9-A61
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab XBB8-XBB9-A61.pot.ib *XBB8-XBB9-A61*
+
+
+tab set scale A61-XBB9-XBB10
+tab set flag periodic
+tab set auto 0
+tab set min 1.165395161
+tab set max 3.04016129
+tab set n 20
+tab A61-XBB9-XBB10.pot.ib *A61-XBB9-XBB10*
+
+
+tab set scale XBB9-A61-A62
+tab set flag periodic
+tab set auto 0
+tab set min 1.57075
+tab set max 2.584137097
+tab set n 20
+tab XBB9-A61-A62.pot.ib *XBB9-A61-A62*
+
+
+tab set scale XBB9-A61-A63
+tab set flag periodic
+tab set auto 0
+tab set min 1.418741935
+tab set max 2.685475806
+tab set n 20
+tab XBB9-A61-A63.pot.ib *XBB9-A61-A63*
+
+
+tab set scale XBB9-XBB10-A71
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab XBB9-XBB10-A71.pot.ib *XBB9-XBB10-A71*
+
+
+tab set scale A71-XBB10-XBB11
+tab set flag periodic
+tab set auto 0
+tab set min 1.114725806
+tab set max 3.04016129
+tab set n 20
+tab A71-XBB10-XBB11.pot.ib *A71-XBB10-XBB11*
+
+
+tab set scale XBB10-A71-A72
+tab set flag periodic
+tab set auto 0
+tab set min 1.57075
+tab set max 2.584137097
+tab set n 20
+tab XBB10-A71-A72.pot.ib *XBB10-A71-A72*
+
+
+tab set scale XBB10-A71-A73
+tab set flag periodic
+tab set auto 0
+tab set min 1.418741935
+tab set max 2.736145161
+tab set n 20
+tab XBB10-A71-A73.pot.ib *XBB10-A71-A73*
+
+
+tab set scale XBB10-XBB11-B21
+tab set flag periodic
+tab set auto 0
+tab set min 0.8613790323
+tab set max 1.621419355
+tab set n 20
+tab XBB10-XBB11-B21.pot.ib *XBB10-XBB11-B21*
+
+
+tab set scale B21-XBB11-YC
+tab set flag periodic
+tab set auto 0
+tab set min 1.216064516
+tab set max 3.090830645
+tab set n 20
+tab B21-XBB11-YC.pot.ib *B21-XBB11-YC*
+
+
+tab set scale XBB11-B21-B22
+tab set flag periodic
+tab set auto 0
+tab set min 1.418741935
+tab set max 2.736145161
+tab set n 20
+tab XBB11-B21-B22.pot.ib *XBB11-B21-B22*
+
+
+tab set scale XBB11-YC-A81
+tab set flag periodic
+tab set auto 0
+tab set min 1.57075
+tab set max 2.736145161
+tab set n 20
+tab XBB11-YC-A81.pot.ib *XBB11-YC-A81*
+
+
+tab set scale YC-A81-A82
+tab set flag periodic
+tab set auto 0
+tab set min 1.67208871
+tab set max 2.077443548
+tab set n 20
+tab YC-A81-A82.pot.ib *YC-A81-A82*
+
+
+tab set scale YC-A81-A83
+tab set flag periodic
+tab set auto 0
+tab set min 1.46941129
+tab set max 2.432129032
+tab set n 20
+tab YC-A81-A83.pot.ib *YC-A81-A83*
+
+
+q

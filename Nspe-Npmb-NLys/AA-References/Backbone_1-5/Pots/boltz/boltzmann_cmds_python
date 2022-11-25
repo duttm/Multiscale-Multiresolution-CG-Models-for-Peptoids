@@ -1,0 +1,85 @@
+tab set T 300
+
+
+tab set scale YN-BB4
+tab set flag periodic
+tab set auto 0
+tab set min 0.42
+tab set max 1.34
+tab set n 20
+tab YN-BB4.pot.ib *YN-BB4*
+
+
+tab set scale BB1-BB5
+tab set flag periodic
+tab set auto 0
+tab set min 0.48
+tab set max 1.34
+tab set n 20
+tab BB1-BB5.pot.ib *BB1-BB5*
+
+
+tab set scale BB2-BB6
+tab set flag periodic
+tab set auto 0
+tab set min 0.56
+tab set max 1.34
+tab set n 20
+tab BB2-BB6.pot.ib *BB2-BB6*
+
+
+tab set scale BB3-BB7
+tab set flag periodic
+tab set auto 0
+tab set min 0.6
+tab set max 1.36
+tab set n 20
+tab BB3-BB7.pot.ib *BB3-BB7*
+
+
+tab set scale BB4-BB8
+tab set flag periodic
+tab set auto 0
+tab set min 0.6
+tab set max 1.34
+tab set n 20
+tab BB4-BB8.pot.ib *BB4-BB8*
+
+
+tab set scale BB5-BB9
+tab set flag periodic
+tab set auto 0
+tab set min 0.5
+tab set max 1.3
+tab set n 20
+tab BB5-BB9.pot.ib *BB5-BB9*
+
+
+tab set scale BB6-BB10
+tab set flag periodic
+tab set auto 0
+tab set min 0.46
+tab set max 1.32
+tab set n 20
+tab BB6-BB10.pot.ib *BB6-BB10*
+
+
+tab set scale BB7-BB11
+tab set flag periodic
+tab set auto 0
+tab set min 0.38
+tab set max 1.32
+tab set n 20
+tab BB7-BB11.pot.ib *BB7-BB11*
+
+
+tab set scale BB8-YC
+tab set flag periodic
+tab set auto 0
+tab set min 0.4
+tab set max 1.24
+tab set n 20
+tab BB8-YC.pot.ib *BB8-YC*
+
+
+q

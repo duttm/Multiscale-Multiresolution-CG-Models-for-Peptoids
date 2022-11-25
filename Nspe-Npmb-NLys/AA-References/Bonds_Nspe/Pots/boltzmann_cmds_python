@@ -1,0 +1,49 @@
+tab set T 300
+
+
+tab set scale NSPE1-NSPE3
+tab set flag periodic
+tab set auto 0
+tab set min 0.182
+tab set max 0.222
+tab set n 20
+tab NSPE1-NSPE3.pot.ib *NSPE1-NSPE3*
+
+
+tab set scale NSPE1-NSPE2
+tab set flag periodic
+tab set auto 0
+tab set min 0.152
+tab set max 0.178
+tab set n 20
+tab NSPE1-NSPE2.pot.ib *NSPE1-NSPE2*
+
+
+tab set scale NSPE3-NSPE4
+tab set flag periodic
+tab set auto 0
+tab set min 0.208
+tab set max 0.23
+tab set n 20
+tab NSPE3-NSPE4.pot.ib *NSPE3-NSPE4*
+
+
+tab set scale NSPE4-NSPE5
+tab set flag periodic
+tab set auto 0
+tab set min 0.212
+tab set max 0.234
+tab set n 20
+tab NSPE4-NSPE5.pot.ib *NSPE4-NSPE5*
+
+
+tab set scale NSPE3-NSPE5
+tab set flag periodic
+tab set auto 0
+tab set min 0.212
+tab set max 0.234
+tab set n 20
+tab NSPE3-NSPE5.pot.ib *NSPE3-NSPE5*
+
+
+q

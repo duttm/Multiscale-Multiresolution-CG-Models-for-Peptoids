@@ -1,0 +1,70 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  
+  
+
+  
+   
+  <bonded>
+    <!-- name of the interaction -->
+    <name>A2-A1-A3-A5</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>A1-A3-A4-A5</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>B1-B2-B3-B4</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>B2-B3-B5-B4</name>
+    <!-- fmatch specific stuff -->
+    <min>-3.1415</min>
+    <max>3.1415</max>
+	<step>0.1</step>
+  </bonded>
+ 
+  
+
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

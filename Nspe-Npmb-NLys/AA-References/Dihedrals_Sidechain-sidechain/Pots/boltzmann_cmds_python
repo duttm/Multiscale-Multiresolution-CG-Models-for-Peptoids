@@ -1,0 +1,40 @@
+tab set T 300
+
+
+tab set scale A2-A1-A3-A5
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A2-A1-A3-A5.pot.ib *A2-A1-A3-A5*
+
+
+tab set scale A1-A3-A4-A5
+tab set flag periodic
+tab set auto 0
+tab set min -1.013387097
+tab set max 1.013387097
+tab set n 90
+tab A1-A3-A4-A5.pot.ib *A1-A3-A4-A5*
+
+
+tab set scale B1-B2-B3-B4
+tab set flag periodic
+tab set auto 0
+tab set min -1.013387097
+tab set max 0.9120483871
+tab set n 90
+tab B1-B2-B3-B4.pot.ib *B1-B2-B3-B4*
+
+
+tab set scale B2-B3-B5-B4
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab B2-B3-B5-B4.pot.ib *B2-B3-B5-B4*
+
+
+q

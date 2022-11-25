@@ -1,0 +1,198 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+
+
+
+  
+         <non-bonded>
+    <name>Nterm-H</name>
+    <type1>Nterm</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+           <non-bonded>
+    <name>BBstandard-H</name>
+    <type1>BBstandard</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+             <non-bonded>
+    <name>NSPE1-H</name>
+    <type1>NSPE1</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+               <non-bonded>
+    <name>NSPE2-H</name>
+    <type1>NSPE2</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+               <non-bonded>
+    <name>NSPE3-H</name>
+    <type1>NSPE3</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+               <non-bonded>
+    <name>NSPE4-H</name>
+    <type1>NSPE4</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+               <non-bonded>
+    <name>NSPE5-H</name>
+    <type1>NSPE5</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+               <non-bonded>
+    <name>NLYS1-H</name>
+    <type1>NLYS1</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+                 <non-bonded>
+    <name>NLYS2-H</name>
+    <type1>NLYS2</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+                 <non-bonded>
+    <name>NLYS3-H</name>
+    <type1>NLYS3</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+                 <non-bonded>
+    <name>PMEO1-H</name>
+    <type1>PMEO1</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+                   <non-bonded>
+    <name>PMEO2-H</name>
+    <type1>PMEO2</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+                   <non-bonded>
+    <name>PMEO3-H</name>
+    <type1>PMEO3</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+                   <non-bonded>
+    <name>PMEO4-H</name>
+    <type1>PMEO4</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+                   <non-bonded>
+    <name>PMEO5-H</name>
+    <type1>PMEO5</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+                   <non-bonded>
+    <name>Cterm-H</name>
+    <type1>Cterm</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+                     <non-bonded>
+    <name>I-H</name>
+    <type1>I</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+  
+  
+  
+          
+  
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

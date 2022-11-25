@@ -1,0 +1,130 @@
+tab set T 300
+
+
+tab set scale NSPE2-NSPE1-NSPE3
+tab set flag periodic
+tab set auto 0
+tab set min 1.460697452
+tab set max 2.441165605
+tab set n 20
+tab NSPE2-NSPE1-NSPE3.pot.ib *NSPE2-NSPE1-NSPE3*
+
+
+tab set scale NSPE1-NSPE3-NSPE5
+tab set flag periodic
+tab set auto 0
+tab set min 1.550740446
+tab set max 1.930921975
+tab set n 20
+tab NSPE1-NSPE3-NSPE5.pot.ib *NSPE1-NSPE3-NSPE5*
+
+
+tab set scale NSPE1-NSPE3-NSPE4
+tab set flag periodic
+tab set auto 0
+tab set min 2.581232484
+tab set max 2.981423567
+tab set n 20
+tab NSPE1-NSPE3-NSPE4.pot.ib *NSPE1-NSPE3-NSPE4*
+
+
+tab set scale NSPE3-NSPE4-NSPE5
+tab set flag periodic
+tab set auto 0
+tab set min 1.000477707
+tab set max 1.120535032
+tab set n 20
+tab NSPE3-NSPE4-NSPE5.pot.ib *NSPE3-NSPE4-NSPE5*
+
+
+tab set scale NSPE4-NSPE5-NSPE3
+tab set flag periodic
+tab set auto 0
+tab set min 0.9604585987
+tab set max 1.090520701
+tab set n 20
+tab NSPE4-NSPE5-NSPE3.pot.ib *NSPE4-NSPE5-NSPE3*
+
+
+tab set scale NSPE5-NSPE3-NSPE4
+tab set flag periodic
+tab set auto 0
+tab set min 1.000477707
+tab set max 1.120535032
+tab set n 20
+tab NSPE5-NSPE3-NSPE4.pot.ib *NSPE5-NSPE3-NSPE4*
+
+
+tab set scale PMEO1-PMEO2-PMEO4
+tab set flag periodic
+tab set auto 0
+tab set min 1.57075
+tab set max 1.91091242
+tab set n 20
+tab PMEO1-PMEO2-PMEO4.pot.ib *PMEO1-PMEO2-PMEO4*
+
+
+tab set scale PMEO1-PMEO2-PMEO3
+tab set flag periodic
+tab set auto 0
+tab set min 2.621251592
+tab set max 2.981423567
+tab set n 20
+tab PMEO1-PMEO2-PMEO3.pot.ib *PMEO1-PMEO2-PMEO3*
+
+
+tab set scale PMEO2-PMEO3-PMEO4
+tab set flag periodic
+tab set auto 0
+tab set min 1.010482484
+tab set max 1.130539809
+tab set n 20
+tab PMEO2-PMEO3-PMEO4.pot.ib *PMEO2-PMEO3-PMEO4*
+
+
+tab set scale PMEO3-PMEO4-PMEO2
+tab set flag periodic
+tab set auto 0
+tab set min 0.9404490446
+tab set max 1.060506369
+tab set n 20
+tab PMEO3-PMEO4-PMEO2.pot.ib *PMEO3-PMEO4-PMEO2*
+
+
+tab set scale PMEO4-PMEO2-PMEO3
+tab set flag periodic
+tab set auto 0
+tab set min 1.010482484
+tab set max 1.140544586
+tab set n 20
+tab PMEO4-PMEO2-PMEO3.pot.ib *PMEO4-PMEO2-PMEO3*
+
+
+tab set scale PMEO2-PMEO3-PMEO5
+tab set flag periodic
+tab set auto 0
+tab set min 2.471179936
+tab set max 3.1415
+tab set n 20
+tab PMEO2-PMEO3-PMEO5.pot.ib *PMEO2-PMEO3-PMEO5*
+
+
+tab set scale PMEO4-PMEO3-PMEO5
+tab set flag periodic
+tab set auto 0
+tab set min 1.460697452
+tab set max 2.121012739
+tab set n 20
+tab PMEO4-PMEO3-PMEO5.pot.ib *PMEO4-PMEO3-PMEO5*
+
+
+tab set scale NLYS1-NLYS2-NLYS3
+tab set flag periodic
+tab set auto 0
+tab set min 1.600764331
+tab set max 3.121490446
+tab set n 20
+tab NLYS1-NLYS2-NLYS3.pot.ib *NLYS1-NLYS2-NLYS3*
+
+
+q

@@ -1,0 +1,80 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  
+  
+
+ <bonded>
+    <!-- name of the interaction -->
+    <name>BB-SC</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+   <bonded>
+    <!-- name of the interaction -->
+    <name>BB-NSPE</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+   <bonded>
+    <!-- name of the interaction -->
+    <name>BB-PMEO</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+  <bonded>
+    <!-- name of the interaction -->
+    <name>BB-NLYS</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+   
+  <bonded>
+    <!-- name of the interaction -->
+    <name>Cterm-SC</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

@@ -1,0 +1,184 @@
+tab set T 300
+
+
+tab set scale A13-A11-BB1-BB2
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A13-A11-BB1-BB2.pot.ib *A13-A11-BB1-BB2*
+
+
+tab set scale BB1-BB2-C11-C12
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB1-BB2-C11-C12.pot.ib *BB1-BB2-C11-C12*
+
+
+tab set scale A23-A21-BB3-BB4
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A23-A21-BB3-BB4.pot.ib *A23-A21-BB3-BB4*
+
+
+tab set scale BB2-BB3-A21-A22
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB2-BB3-A21-A22.pot.ib *BB2-BB3-A21-A22*
+
+
+tab set scale A33-A31-XBB4-XBB5
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A33-A31-XBB4-XBB5.pot.ib *A33-A31-XBB4-XBB5*
+
+
+tab set scale BB3-BB4-A31-A32
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB3-BB4-A31-A32.pot.ib *BB3-BB4-A31-A32*
+
+
+tab set scale A43-A41-BB6-BB7
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A43-A41-BB6-BB7.pot.ib *A43-A41-BB6-BB7*
+
+
+tab set scale BB4-BB5-B11-B12
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB4-BB5-B11-B12.pot.ib *BB4-BB5-B11-B12*
+
+
+tab set scale A53-A51-BB7-BB8
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A53-A51-BB7-BB8.pot.ib *A53-A51-BB7-BB8*
+
+
+tab set scale BB5-BB6-A41-A42
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB5-BB6-A41-A42.pot.ib *BB5-BB6-A41-A42*
+
+
+tab set scale A63-A61-BB9-BB10
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A63-A61-BB9-BB10.pot.ib *A63-A61-BB9-BB10*
+
+
+tab set scale BB6-BB7-A51-A52
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB6-BB7-A51-A52.pot.ib *BB6-BB7-A51-A52*
+
+
+tab set scale A73-A71-BB10-BB11
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A73-A71-BB10-BB11.pot.ib *A73-A71-BB10-BB11*
+
+
+tab set scale BB7-BB8-C21-C22
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB7-BB8-C21-C22.pot.ib *BB7-BB8-C21-C22*
+
+
+tab set scale A83-A81-YC-BB11
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab A83-A81-YC-BB11.pot.ib *A83-A81-YC-BB11*
+
+
+tab set scale BB8-BB9-A61-A62
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB8-BB9-A61-A62.pot.ib *BB8-BB9-A61-A62*
+
+
+tab set scale BB10-BB11-B21-B22
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB10-BB11-B21-B22.pot.ib *BB10-BB11-B21-B22*
+
+
+tab set scale BB9-BB10-A71-A73
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB9-BB10-A71-A73.pot.ib *BB9-BB10-A71-A73*
+
+
+tab set scale BB11-YC-A81-A82
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab BB11-YC-A81-A82.pot.ib *BB11-YC-A81-A82*
+
+
+tab set scale YN-BB1-A11-A12
+tab set flag periodic
+tab set auto 0
+tab set min -3.1415
+tab set max 3.1415
+tab set n 90
+tab YN-BB1-A11-A12.pot.ib *YN-BB1-A11-A12*
+
+
+q

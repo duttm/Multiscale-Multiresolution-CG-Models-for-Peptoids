@@ -1,0 +1,166 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  
+  
+
+
+ <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB1-A11</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB2-C11</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+ 
+ 
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB3-A21</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB4-A31</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB5-B11</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB6-A41</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB7-A51</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB8-C21</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB9-A61</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB10-A71</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+   
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond-XBB11-B21</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+   <bonded>
+    <!-- name of the interaction -->
+    <name>bond-YC-A81</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+
+ 
+ 
+
+  
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+  
+  </cg>

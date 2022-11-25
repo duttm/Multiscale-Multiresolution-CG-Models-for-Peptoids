@@ -1,0 +1,1056 @@
+<cg_molecule>
+  <name>P3</name> <!-- the name of the molecule after mapping -->
+  <ident>SRUG</ident> <!-- the name of the molecule in atomistic topology -->
+  <topology>
+    <cg_beads>
+
+<cg_bead>
+<name>YN</name>
+<type>Nterm</type>
+<mapping>Nterm</mapping>
+<beads>
+1:SRUG:N1 1:SRUG:C1 1:SRUG:C2 1:SRUG:H9 1:SRUG:H10 1:SRUG:O14 1:SRUG:H7 1:SRUG:H8 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB1</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N2 1:SRUG:C11 1:SRUG:C12 1:SRUG:H20 1:SRUG:H21 1:SRUG:O13 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A11</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C3 1:SRUG:H11 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A12</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C4 1:SRUG:H12 1:SRUG:H13 1:SRUG:H14 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A13</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C5 1:SRUG:C6 1:SRUG:H15 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A14</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C7 1:SRUG:C8 1:SRUG:H17 1:SRUG:H16 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A15</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C9 1:SRUG:C10 1:SRUG:H19 1:SRUG:H18 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB2</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N3 1:SRUG:C17 1:SRUG:C18 1:SRUG:H30 1:SRUG:H31 1:SRUG:O12 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>C11</name>
+<type>NLYS1</type>
+<mapping>NLYS1</mapping>
+<beads>
+1:SRUG:C13 1:SRUG:H22 1:SRUG:H23 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>C12</name>
+<type>NLYS2</type>
+<mapping>NLYS2</mapping>
+<beads>
+1:SRUG:C14 1:SRUG:C15 1:SRUG:H26 1:SRUG:H27 1:SRUG:H24 1:SRUG:H25 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>C13</name>
+<type>NLYS3</type>
+<mapping>NLYS3</mapping>
+<beads>
+1:SRUG:C16 1:SRUG:N4 1:SRUG:H1 1:SRUG:H2 1:SRUG:H3 1:SRUG:H28 1:SRUG:H29 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB3</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N5 1:SRUG:C27 1:SRUG:C28 1:SRUG:H41 1:SRUG:H42 1:SRUG:O11 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A21</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C19 1:SRUG:H32 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A22</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C20 1:SRUG:H33 1:SRUG:H34 1:SRUG:H35 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A23</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C21 1:SRUG:C22 1:SRUG:H36 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A24</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C23 1:SRUG:C24 1:SRUG:H38 1:SRUG:H37 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A25</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C25 1:SRUG:C26 1:SRUG:H40 1:SRUG:H39 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB4</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N6 1:SRUG:C37 1:SRUG:C38 1:SRUG:H52 1:SRUG:H53 1:SRUG:O10 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A31</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C29 1:SRUG:H43 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A32</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C36 1:SRUG:H49 1:SRUG:H50 1:SRUG:H51 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A33</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C30 1:SRUG:C31 1:SRUG:H44 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A34</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C32 1:SRUG:C33 1:SRUG:H46 1:SRUG:H45 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A35</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C34 1:SRUG:C35 1:SRUG:H48 1:SRUG:H47 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB5</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N7 1:SRUG:C47 1:SRUG:C48 1:SRUG:H63 1:SRUG:H64 1:SRUG:O9 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B11</name>
+<type>PMEO1</type>
+<mapping>PMEO1</mapping>
+<beads>
+1:SRUG:C39 1:SRUG:H54 1:SRUG:H55 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B12</name>
+<type>PMEO2</type>
+<mapping>PMEO2</mapping>
+<beads>
+1:SRUG:C40 1:SRUG:C41 1:SRUG:H56 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B13</name>
+<type>PMEO3</type>
+<mapping>PMEO3</mapping>
+<beads>
+1:SRUG:C42 1:SRUG:C43 1:SRUG:H57 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B14</name>
+<type>PMEO4</type>
+<mapping>PMEO4</mapping>
+<beads>
+1:SRUG:C45 1:SRUG:C46 1:SRUG:H62 1:SRUG:H61 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B15</name>
+<type>PMEO5</type>
+<mapping>PMEO5</mapping>
+<beads>
+1:SRUG:O1 1:SRUG:C44 1:SRUG:H58 1:SRUG:H59 1:SRUG:H60 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB6</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N8 1:SRUG:C57 1:SRUG:C58 1:SRUG:H74 1:SRUG:H75 1:SRUG:O8 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A41</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C49 1:SRUG:H65 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A42</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C56 1:SRUG:H71 1:SRUG:H72 1:SRUG:H73 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A43</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C50 1:SRUG:C51 1:SRUG:H66 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A44</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C52 1:SRUG:C53 1:SRUG:H68 1:SRUG:H67 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A45</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C54 1:SRUG:C55 1:SRUG:H70 1:SRUG:H69 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB7</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N9 1:SRUG:C67 1:SRUG:C68 1:SRUG:H85 1:SRUG:H86 1:SRUG:O7 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A51</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C59 1:SRUG:H76 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A52</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C60 1:SRUG:H77 1:SRUG:H78 1:SRUG:H79 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A53</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C61 1:SRUG:C62 1:SRUG:H80 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A54</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C63 1:SRUG:C64 1:SRUG:H82 1:SRUG:H81 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A55</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C65 1:SRUG:C66 1:SRUG:H84 1:SRUG:H83 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB8</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N10 1:SRUG:C73 1:SRUG:C74 1:SRUG:H95 1:SRUG:H96 1:SRUG:O6 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>C21</name>
+<type>NLYS1</type>
+<mapping>NLYS1</mapping>
+<beads>
+1:SRUG:C69 1:SRUG:H87 1:SRUG:H88 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>C22</name>
+<type>NLYS2</type>
+<mapping>NLYS2</mapping>
+<beads>
+1:SRUG:C70 1:SRUG:C71 1:SRUG:H91 1:SRUG:H92 1:SRUG:H89 1:SRUG:H90 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>C23</name>
+<type>NLYS3</type>
+<mapping>NLYS3</mapping>
+<beads>
+1:SRUG:C72 1:SRUG:N11 1:SRUG:H4 1:SRUG:H5 1:SRUG:H6 1:SRUG:H93 1:SRUG:H94 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB9</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N12 1:SRUG:C83 1:SRUG:C84 1:SRUG:H106 1:SRUG:H107 1:SRUG:O5 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A61</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C75 1:SRUG:H97 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A62</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C82 1:SRUG:H103 1:SRUG:H104 1:SRUG:H105 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A63</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C76 1:SRUG:C77 1:SRUG:H98 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A64</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C78 1:SRUG:C79 1:SRUG:H100 1:SRUG:H99 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A65</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C80 1:SRUG:C81 1:SRUG:H102 1:SRUG:H101 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB10</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N13 1:SRUG:C93 1:SRUG:C94 1:SRUG:H117 1:SRUG:H118 1:SRUG:O4 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A71</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C85 1:SRUG:H108 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A72</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C92 1:SRUG:H114 1:SRUG:H115 1:SRUG:H116 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A73</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C86 1:SRUG:C87 1:SRUG:H109 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A74</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C88 1:SRUG:C89 1:SRUG:H111 1:SRUG:H110 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A75</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C90 1:SRUG:C91 1:SRUG:H113 1:SRUG:H112 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>XBB11</name>
+<type>BBstandard</type>
+<mapping>BBstandard</mapping>
+<beads>
+1:SRUG:N14 1:SRUG:C103 1:SRUG:C104 1:SRUG:H128 1:SRUG:H129 1:SRUG:O3 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B21</name>
+<type>PMEO1</type>
+<mapping>PMEO1</mapping>
+<beads>
+1:SRUG:C95 1:SRUG:H119 1:SRUG:H120 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B22</name>
+<type>PMEO2</type>
+<mapping>PMEO2</mapping>
+<beads>
+1:SRUG:C96 1:SRUG:C97 1:SRUG:H121 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B23</name>
+<type>PMEO3</type>
+<mapping>PMEO3</mapping>
+<beads>
+1:SRUG:C98 1:SRUG:C99 1:SRUG:H122 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B24</name>
+<type>PMEO4</type>
+<mapping>PMEO4</mapping>
+<beads>
+1:SRUG:C101 1:SRUG:C102 1:SRUG:H127 1:SRUG:H126 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>B25</name>
+<type>PMEO5</type>
+<mapping>PMEO5</mapping>
+<beads>
+1:SRUG:O2 1:SRUG:C100 1:SRUG:H123 1:SRUG:H124 1:SRUG:H125 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>YC</name>
+<type>Cterm</type>
+<mapping>Cterm</mapping>
+<beads>
+1:SRUG:N15 1:SRUG:H130 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A81</name>
+<type>NSPE1</type>
+<mapping>NSPE1</mapping>
+<beads>
+1:SRUG:C105 1:SRUG:H131 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A82</name>
+<type>NSPE2</type>
+<mapping>NSPE2</mapping>
+<beads>
+1:SRUG:C112 1:SRUG:H137 1:SRUG:H138 1:SRUG:H139 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A83</name>
+<type>NSPE3</type>
+<mapping>NSPE3</mapping>
+<beads>
+1:SRUG:C106 1:SRUG:C107 1:SRUG:H132 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A84</name>
+<type>NSPE4</type>
+<mapping>NSPE4</mapping>
+<beads>
+1:SRUG:C108 1:SRUG:C109 1:SRUG:H134 1:SRUG:H133 
+</beads>
+</cg_bead>
+
+ 
+ 
+<cg_bead>
+<name>A85</name>
+<type>NSPE5</type>
+<mapping>NSPE5</mapping>
+<beads>
+1:SRUG:C110 1:SRUG:C111 1:SRUG:H136 1:SRUG:H135 
+</beads>
+</cg_bead>
+
+
+ 
+ 
+
+
+   
+   </cg_beads>
+ <cg_bonded>
+
+     <bond>
+        <name>bond</name>
+        <beads>
+         XBB1 XBB2
+         XBB2 XBB3
+         XBB3 XBB4
+         XBB4 XBB5
+         XBB5 XBB6
+         XBB6 XBB7
+         XBB7 XBB8
+         XBB8 XBB9
+         XBB9 XBB10
+	XBB10 XBB11
+        </beads>
+      </bond>
+      
+          <bond>
+        <name>bond1</name>
+        <beads>
+         XBB1 XBB2
+        </beads>
+      </bond>
+      
+          <bond>
+        <name>bond2</name>
+        <beads>
+      
+         XBB2 XBB3
+      
+        </beads>
+      </bond>
+      
+               <bond>
+        <name>bond3</name>
+        <beads>
+      
+         XBB3 XBB4
+      
+        </beads>
+      </bond>
+
+
+         <bond>
+        <name>bond4</name>
+        <beads>
+      
+         XBB4 XBB5
+      
+        </beads>
+      </bond>
+
+
+         <bond>
+        <name>bond5</name>
+        <beads>
+      
+         XBB5 XBB6
+      
+        </beads>
+      </bond>
+      
+             <bond>
+        <name>bond6</name>
+        <beads>
+      
+           XBB6 XBB7
+      
+        </beads>
+      </bond>
+      
+            <bond>
+        <name>bond7</name>
+        <beads>
+      
+          XBB7 XBB8
+      
+        </beads>
+      </bond>
+      
+         <bond>
+        <name>bond8</name>
+        <beads>
+      
+         XBB8 XBB9
+      
+        </beads>
+      </bond>
+      
+               <bond>
+        <name>bond9</name>
+        <beads>
+      
+         XBB9 XBB10
+      
+        </beads>
+      </bond>
+      
+             <bond>
+        <name>bond10</name>
+        <beads>
+      
+         XBB10 XBB11
+      
+        </beads>
+      </bond>
+
+       <bond>
+        <name>bondNB</name>
+        <beads>
+      
+         YN XBB1
+      
+        </beads>
+      </bond>
+      
+         <bond>
+        <name>bondCB</name>
+        <beads>
+      
+         YC XBB11
+      
+        </beads>
+      </bond>
+
+
+
+
+
+  </cg_bonded>
+
+  </topology>
+  <maps>
+
+<map>
+<name>Nterm</name>
+<weights>
+14 12 12 1 1 16 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>BBstandard</name>
+<weights>
+14 12 12 1 1 16 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NSPE1</name>
+<weights>
+12 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NSPE2</name>
+<weights>
+12 1 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NSPE3</name>
+<weights>
+12 12 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NSPE4</name>
+<weights>
+12 12 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NSPE5</name>
+<weights>
+12 12 1 1 
+</weights>
+</map>
+
+ 
+
+ 
+ 
+<map>
+<name>NLYS1</name>
+<weights>
+12 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NLYS2</name>
+<weights>
+12 12 1 1 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>NLYS3</name>
+<weights>
+12 14 1 1 1 1 1 
+</weights>
+</map>
+
+ 
+ 
+
+ 
+ 
+<map>
+<name>PMEO1</name>
+<weights>
+12 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>PMEO2</name>
+<weights>
+12 12 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>PMEO3</name>
+<weights>
+12 12 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>PMEO4</name>
+<weights>
+12 12 1 1 
+</weights>
+</map>
+
+ 
+ 
+<map>
+<name>PMEO5</name>
+<weights>
+16 12 1 1 1 
+</weights>
+</map>
+
+ 
+ <map>
+<name>Cterm</name>
+<weights>
+14 1 
+</weights>
+</map>
+ 
+
+
+  </maps>
+</cg_molecule>
+
