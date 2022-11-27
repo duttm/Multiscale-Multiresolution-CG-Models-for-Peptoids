@@ -1,0 +1,9 @@
+<cg>
+  <!-- fmatch section -->
+  <fmatch>
+    <!-- use constraint LS solver -->
+    <constrainedLS>true</constrainedLS>
+    <!-- Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  

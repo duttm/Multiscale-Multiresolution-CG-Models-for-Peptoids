@@ -1,0 +1,10 @@
+do for [i=1:N] {
+
+    set label 1 word(filenameslit,i) at graph 0.2,1.05 font "Times-New-Roman,12"
+    plot 'replacehere/'.word(filenames, i).".xvg"  using  1:($6 == 0 ? NaN : $6) with lines lt rgb "black" linewidth 3 not
+}
+
+
+unset multiplot
+
+

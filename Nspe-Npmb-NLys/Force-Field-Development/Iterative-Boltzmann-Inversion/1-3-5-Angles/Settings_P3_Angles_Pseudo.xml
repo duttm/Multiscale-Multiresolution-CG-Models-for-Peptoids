@@ -1,0 +1,219 @@
+<cg>
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB7-BB9-BB11</name>
+  <min>0.8107096774</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB7-BB9-BB11.dist.tgt</target>
+    <gromacs>
+      <table>table_a267.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB6-BB8-BB10</name>
+  <min>0.9120483871</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB6-BB8-BB10.dist.tgt</target>
+    <gromacs>
+      <table>table_a266.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+
+
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB5-BB7-BB9</name>
+  <min>0.9120483871</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB5-BB7-BB9.dist.tgt</target>
+    <gromacs>
+      <table>table_a265.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB8-BB10-YC</name>
+  <min>0.8613790323</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB8-BB10-YC.dist.tgt</target>
+    <gromacs>
+      <table>table_a268.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB1-BB3-BB5</name>
+  <min>0.8107096774</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB1-BB3-BB5.dist.tgt</target>
+    <gromacs>
+      <table>table_a261.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB4-BB6-BB8</name>
+  <min>1.064056452</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB4-BB6-BB8.dist.tgt</target>
+    <gromacs>
+      <table>table_a264.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB3-BB5-BB7</name>
+  <min>1.165395161</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB3-BB5-BB7.dist.tgt</target>
+    <gromacs>
+      <table>table_a263.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>YN-BB2-BB4</name>
+  <min>0.8107096774</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>YN-BB2-BB4.dist.tgt</target>
+    <gromacs>
+      <table>table_a269.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+<bonded>
+  <!-- name of the interaction -->
+  <name>BB2-BB4-BB6</name>
+  <min>1.064056452</min>
+  <max>3.090830645</max>
+<step>0.02</step>
+  <inverse>
+    <!-- target distribution -->
+    <target>BB2-BB4-BB6.dist.tgt</target>
+    <gromacs>
+      <table>table_a262.xvg</table>
+    </gromacs>
+   </inverse>
+</bonded>
+
+
+
+   <!-- general options for inverse script -->
+    <inverse>
+      <!-- 300*0.00831451 gromacs units -->
+      <kBT>2.49435</kBT>
+      <!-- use gromacs as simulation program -->
+      <program>gromacs</program>
+      <!-- gromacs specific options -->
+      <gromacs>
+        <!-- trash so many frames at the beginning -->
+        <equi_time>20</equi_time>
+        <!-- grid for table*.xvg !-->
+        <table_bins>0.002</table_bins>
+        <!-- cut the potential at this value (gromacs bug) -->
+        <pot_max>1000000</pot_max>
+        <!-- extend the tables to this value -->
+        <table_end>2.5</table_end>
+        <mdrun>
+        <command>
+         mpirun -np 8 gmx_mpi mdrun
+      </command>
+
+<opts>-tableb table_b1212.xvg table_b116444.xvg table_b1210.xvg table_b118444.xvg table_b131.xvg table_b115444.xvg table_b123.xvg table_b117444.xvg table_b154.xvg table_b129.xvg table_b128.xvg table_b134.xvg table_b112444.xvg table_b114444.xvg table_b1112444.xvg table_b133.xvg table_b119444.xvg table_b125.xvg table_b1111444.xvg table_b1211.xvg table_b111444.xvg table_b132.xvg table_b155.xvg table_b122.xvg table_b124.xvg table_b153.xvg table_b1110444.xvg table_b152.xvg table_b141.xvg table_b142.xvg table_b127.xvg table_b135.xvg table_b151.xvg table_b126.xvg table_b113444.xvg table_b121.xvg table_a212999.xvg table_a221.xvg table_a2218.xvg table_a217999.xvg table_a224.xvg table_a2213.xvg table_a2243.xvg table_a2230.xvg table_a2219.xvg table_a2216.xvg table_a233.xvg table_a225.xvg table_a2222.xvg table_a223.xvg table_a236.xvg table_a2217.xvg table_a222.xvg table_a2210.xvg table_a218999.xvg table_a2240.xvg table_a227.xvg table_a215999.xvg table_a2215.xvg table_a234.xvg table_a231.xvg table_a2232.xvg table_a257.xvg table_a2236.xvg table_a2242.xvg table_a2233.xvg table_a211999.xvg table_a214999.xvg table_a255.xvg table_a256.xvg table_a229.xvg table_a228.xvg table_a219999.xvg table_a252.xvg table_a241.xvg table_a254.xvg table_a235.xvg table_a2231.xvg table_a2111999.xvg table_a253.xvg table_a216999.xvg table_a2234.xvg table_a2224.xvg table_a2110999.xvg table_a2241.xvg table_a2226.xvg table_a2239.xvg table_a2237.xvg table_a2223.xvg table_a251.xvg table_a2235.xvg table_a2212.xvg table_a2228.xvg table_a2229.xvg table_a232.xvg table_a2238.xvg table_a2225.xvg table_a2220.xvg table_a2211.xvg table_a2227.xvg table_a2214.xvg table_a226.xvg table_a2221.xvg table_a213999.xvg table_d413.xvg table_d411.xvg table_d416.xvg table_d417.xvg table_d415.xvg table_d419.xvg table_d412.xvg table_d4110.xvg table_d418.xvg table_d414.xvg table_d4210.xvg table_d4215.xvg table_d421.xvg table_d425.xvg table_d4211.xvg table_d4216.xvg table_d4220.xvg table_d426.xvg table_d4212.xvg table_d4217.xvg table_d422.xvg table_d427.xvg table_d4213.xvg table_d4218.xvg table_d423.xvg table_d428.xvg table_d4214.xvg table_d4219.xvg table_d424.xvg table_d429.xvg table_d431.xvg table_d432.xvg table_d433.xvg table_d434.xvg table_a261.xvg table_a262.xvg table_a263.xvg table_a264.xvg table_a265.xvg table_a266.xvg table_a267.xvg table_a268.xvg table_a269.xvg
+
+</opts>
+        </mdrun>
+  
+      <grompp>
+      <bin>
+      mpirun -np 1 gmx_mpi grompp
+      </bin>
+      </grompp>
+
+      </gromacs>
+
+
+
+
+      <map>P3_angles_bb_pseudo.xml</map>
+      <map>water_CG.xml</map>
+      <map>chlorine_CG.xml</map>
+      <!-- these files are copied for each new run -->
+
+<filelist> grompp.mdp topol.top table.xvg index.ndx table_b1212.xvg table_b1210.xvg table_b131.xvg table_b123.xvg table_b154.xvg table_b129.xvg table_b128.xvg table_b134.xvg table_b133.xvg table_b125.xvg table_b1211.xvg table_b132.xvg table_b155.xvg table_b122.xvg table_b124.xvg table_b153.xvg table_b152.xvg table_b141.xvg table_b142.xvg table_b127.xvg table_b135.xvg table_b151.xvg table_b126.xvg table_b121.xvg table_a212999.xvg table_a221.xvg table_a2218.xvg table_a217999.xvg table_a224.xvg table_a2213.xvg table_a2243.xvg table_a2230.xvg table_a2219.xvg table_a2216.xvg table_a233.xvg table_a225.xvg table_a2222.xvg table_a223.xvg table_a236.xvg table_a2217.xvg table_a222.xvg table_a2210.xvg table_a218999.xvg table_a2240.xvg table_a227.xvg table_a215999.xvg table_a2215.xvg table_a234.xvg table_a231.xvg table_a2232.xvg table_a257.xvg table_a2236.xvg table_a2242.xvg table_a2233.xvg table_a211999.xvg table_a214999.xvg table_a255.xvg table_a256.xvg table_a229.xvg table_a228.xvg table_a219999.xvg table_a252.xvg table_a241.xvg table_a254.xvg table_a235.xvg table_a2231.xvg table_a2111999.xvg table_a253.xvg table_a216999.xvg table_a2234.xvg table_a2224.xvg table_a2110999.xvg table_a2241.xvg table_a2226.xvg table_a2239.xvg table_a2237.xvg table_a2223.xvg table_a251.xvg table_a2235.xvg table_a2212.xvg table_a2228.xvg table_a2229.xvg table_a232.xvg table_a2238.xvg table_a2225.xvg table_a2220.xvg table_a2211.xvg table_a2227.xvg table_a2214.xvg table_a226.xvg table_a2221.xvg table_a213999.xvg table_d413.xvg table_d411.xvg table_d416.xvg table_d417.xvg table_d415.xvg table_d419.xvg table_d412.xvg table_d4110.xvg table_d418.xvg table_d414.xvg table_d4210.xvg table_d4215.xvg table_d421.xvg table_d425.xvg table_d4211.xvg table_d4216.xvg table_d4220.xvg table_d426.xvg table_d4212.xvg table_d4217.xvg table_d422.xvg table_d427.xvg table_d4213.xvg table_d4218.xvg table_d423.xvg table_d428.xvg table_d4214.xvg table_d4219.xvg table_d424.xvg table_d429.xvg table_d431.xvg table_d432.xvg table_d433.xvg table_d434.xvg table_NSPE5_NLYS3.xvg table_NLYS1_PMEO5.xvg table_PMEO1_PMEO4.xvg table_NLYS3_PMEO3.xvg table_NSPE2_I.xvg table_NLYS3_PMEO2.xvg table_NLYS3_Cterm.xvg table_NLYS3_PMEO5.xvg table_NSPE1_NSPE3.xvg table_Nterm_NSPE1.xvg table_NSPE1_NLYS2.xvg table_NSPE5_PMEO2.xvg table_NSPE5_PMEO3.xvg table_NSPE2_PMEO2.xvg table_PMEO4_PMEO5.xvg table_NSPE4_PMEO2.xvg table_PMEO2_Cterm.xvg table_NSPE2_NLYS1.xvg table_PMEO3_PMEO3.xvg table_NLYS1_PMEO3.xvg table_NSPE4_I.xvg table_PMEO1_PMEO1.xvg table_PMEO4_Cterm.xvg table_NSPE5_PMEO5.xvg table_NSPE5_PMEO4.xvg table_NLYS3_PMEO1.xvg table_BBstandard_I.xvg table_NSPE5_I.xvg table_Nterm_NLYS3.xvg table_NSPE4_NSPE5.xvg table_NSPE5_NSPE5.xvg table_NLYS2_I.xvg table_BBstandard_Cterm.xvg table_NSPE4_NSPE4.xvg table_NSPE2_PMEO4.xvg table_PMEO3_PMEO4.xvg table_NSPE2_PMEO1.xvg table_NSPE3_I.xvg table_PMEO1_PMEO2.xvg table_PMEO5_PMEO5.xvg table_NLYS1_PMEO2.xvg table_NSPE1_PMEO3.xvg table_Cterm_Cterm.xvg table_NSPE1_Cterm.xvg table_NLYS2_PMEO4.xvg table_NSPE3_PMEO5.xvg table_NSPE1_NLYS1.xvg table_NLYS2_NLYS2.xvg table_NLYS1_NLYS1.xvg table_NSPE5_NLYS1.xvg table_Nterm_NSPE5.xvg table_I_I.xvg table_NSPE1_NLYS3.xvg table_NSPE4_NLYS3.xvg table_NSPE2_PMEO3.xvg table_NLYS2_NLYS3.xvg table_Nterm_Cterm.xvg table_NSPE4_PMEO5.xvg table_BBstandard_NSPE3.xvg table_Nterm_PMEO2.xvg table_NSPE3_Cterm.xvg table_Nterm_PMEO3.xvg table_BBstandard_NLYS2.xvg table_NLYS1_NLYS3.xvg table_PMEO3_Cterm.xvg table_NSPE5_Cterm.xvg table_PMEO5_I.xvg table_Nterm_NLYS1.xvg table_PMEO2_PMEO2.xvg table_Nterm_NLYS2.xvg table_NSPE1_I.xvg table_BBstandard_PMEO3.xvg table_NSPE3_PMEO4.xvg table_NSPE2_NSPE4.xvg table_NLYS3_I.xvg table_NSPE5_PMEO1.xvg table_NSPE2_NLYS3.xvg table_NLYS1_I.xvg table_NSPE3_NLYS2.xvg table_NSPE4_PMEO4.xvg table_NLYS2_PMEO1.xvg table_BBstandard_NLYS3.xvg table_NSPE4_PMEO3.xvg table_NSPE3_PMEO2.xvg table_PMEO1_Cterm.xvg table_PMEO4_I.xvg table_Nterm_Nterm.xvg table_NSPE3_NSPE3.xvg table_Cterm_I.xvg table_Nterm_NSPE3.xvg table_NSPE1_NSPE1.xvg table_NSPE3_NSPE5.xvg table_BBstandard_BBstandard.xvg table_PMEO2_I.xvg table_NLYS2_PMEO2.xvg table_NSPE4_NLYS1.xvg table_NSPE1_PMEO1.xvg table_NSPE5_NLYS2.xvg table_NLYS2_PMEO5.xvg table_PMEO3_I.xvg table_NLYS1_Cterm.xvg table_NSPE1_NSPE4.xvg table_NSPE3_PMEO1.xvg table_PMEO3_PMEO5.xvg table_Nterm_I.xvg table_PMEO5_Cterm.xvg table_BBstandard_PMEO5.xvg table_NSPE2_PMEO5.xvg table_PMEO2_PMEO4.xvg table_NSPE1_PMEO2.xvg table_BBstandard_NSPE1.xvg table_PMEO2_PMEO3.xvg table_NSPE3_NSPE4.xvg table_PMEO1_PMEO3.xvg table_NSPE4_Cterm.xvg table_NLYS2_Cterm.xvg table_NSPE1_NSPE2.xvg table_NSPE3_NLYS1.xvg table_NLYS3_PMEO4.xvg table_BBstandard_PMEO1.xvg table_NSPE2_NSPE5.xvg table_PMEO4_PMEO4.xvg table_PMEO1_PMEO5.xvg table_Nterm_NSPE4.xvg table_NLYS1_PMEO4.xvg table_NLYS1_PMEO1.xvg table_NSPE3_NLYS3.xvg table_Nterm_PMEO5.xvg table_BBstandard_NSPE5.xvg table_NLYS3_NLYS3.xvg table_Nterm_NSPE2.xvg table_BBstandard_NSPE2.xvg table_NLYS1_NLYS2.xvg table_NSPE3_PMEO3.xvg table_Nterm_BBstandard.xvg table_BBstandard_PMEO4.xvg table_NSPE4_NLYS2.xvg table_NSPE1_PMEO5.xvg table_NSPE2_NSPE2.xvg table_NSPE1_NSPE5.xvg table_NSPE2_NLYS2.xvg table_NLYS2_PMEO3.xvg table_PMEO2_PMEO5.xvg table_PMEO1_I.xvg table_Nterm_PMEO1.xvg table_BBstandard_PMEO2.xvg table_NSPE2_NSPE3.xvg table_Nterm_PMEO4.xvg table_BBstandard_NLYS1.xvg table_BBstandard_NSPE4.xvg table_NSPE1_PMEO4.xvg table_NSPE2_Cterm.xvg table_NSPE4_PMEO1.xvg table_H_H.xvg table_PMEO3_H.xvg table_PMEO4_H.xvg table_Cterm_H.xvg table_PMEO5_H.xvg table_PMEO1_H.xvg table_NSPE4_H.xvg table_H_I.xvg table_NLYS3_H.xvg table_Nterm_H.xvg table_NSPE2_H.xvg table_NLYS1_H.xvg table_NSPE5_H.xvg table_NSPE3_H.xvg table_NLYS2_H.xvg table_PMEO2_H.xvg table_NSPE1_H.xvg table_BBstandard_H.xvg table_b116444.xvg table_b118444.xvg table_b115444.xvg table_b117444.xvg table_b112444.xvg table_b114444.xvg table_b1112444.xvg table_b119444.xvg table_b1111444.xvg table_b111444.xvg table_b1110444.xvg table_b113444.xvg </filelist>
+
+      <!-- do so many iterations -->
+      <iterations_max>300</iterations_max>
+            <!-- ibm: inverse biltzmann imc: inverse monte carlo -->
+      <method>ibi</method>
+      <!-- write log to this file -->
+      <log_file>inverse.log</log_file>
+      <!-- write restart step to this file -->
+      <restart_file>restart_points.log</restart_file>
+    </inverse>
+  </cg>
+
+
+

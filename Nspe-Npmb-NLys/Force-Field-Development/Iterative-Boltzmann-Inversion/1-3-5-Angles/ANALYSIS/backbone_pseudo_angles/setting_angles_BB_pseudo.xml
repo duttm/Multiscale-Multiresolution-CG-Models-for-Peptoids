@@ -1,0 +1,113 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>YN-BB2-BB4</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+
+ 
+  <bonded>
+    <!-- name of the interaction -->
+    <name>BB1-BB3-BB5</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB2-BB4-BB6</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+    <bonded>
+    <!-- name of the interaction -->
+    <name>BB3-BB5-BB7</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+  
+      <bonded>
+    <!-- name of the interaction -->
+    <name>BB4-BB6-BB8</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+  
+      <bonded>
+    <!-- name of the interaction -->
+    <name>BB5-BB7-BB9</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+  
+      <bonded>
+    <!-- name of the interaction -->
+    <name>BB6-BB8-BB10</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+  
+      <bonded>
+    <!-- name of the interaction -->
+    <name>BB7-BB9-BB11</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+       <bonded>
+    <!-- name of the interaction -->
+    <name>BB8-BB10-YC</name>
+    <!-- fmatch specific stuff -->
+    <min>0</min>
+    <max>3.1415</max>
+	<step>0.05</step>
+  </bonded>
+  
+    
+  
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

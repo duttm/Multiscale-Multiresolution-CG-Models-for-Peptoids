@@ -1,0 +1,164 @@
+; VARIOUS PREPROCESSING OPTIONS
+; Initial template of this MDP file was obrained from the VOTCA respository [https://github.com/votca/csg]
+
+; Preprocessor - specify a full path if necessary.
+include                  = 
+define                   = 
+
+; RUN CONTROL PARAMETERS
+integrator               = sd
+; Start time and timestep in ps
+tinit                    = 0
+dt                       = 0.001 ; Timestep can be hiked to 0.002 after initial equlibration. 
+nsteps                   = 500000 ; Simulation run time = 1000000 * 0.001 = 1000 picoseconds = 1 nanosecond   
+
+; For exact run continuation or redoing part of a run
+init_step                = 0
+; mode for center of mass motion removal
+comm-mode                = Linear
+; number of steps for center of mass motion removal
+nstcomm                  = 10
+; group(s) for center of mass motion removal
+comm_grps                = 
+;system
+
+; LANGEVIN DYNAMICS OPTIONS
+; Friction coefficient (amu/ps) and random seed
+ld-seed                  = 1993
+
+cutoff-scheme = group
+
+; OUTPUT CONTROL OPTIONS
+; Output frequency for coords (x), velocities (v) and forces (f)
+nstxout                  = 10000000
+nstvout                  = 10000000
+nstfout                  = 0
+; Output frequency for energies to log file and energy file
+nstlog                   = 1000
+nstenergy                = 1000
+; Output frequency and precision for xtc file
+nstxout-compressed       = 100
+compressed-x-precision   = 1000
+; This selects the subset of atoms for the xtc file. You can
+; select multiple groups. By default all atoms will be written.
+compressed-x-grps        = System
+
+; Selection of energy groups
+energygrps               = Nterm BBstandard NSPE1 NSPE2 NSPE3 NSPE4 NSPE5 NLYS1 NLYS2 NLYS3 PMEO1 PMEO2 PMEO3 PMEO4 PMEO5 Cterm H I
+
+; NEIGHBORSEARCHING PARAMETERS
+; nblist update frequency
+nstlist                  = 10
+; ns algorithm (simple or grid)
+ns_type                  = grid
+; Periodic boundary conditions: xyz (default), no (vacuum)
+; or full (infinite systems only)
+pbc                      = xyz
+; nblist cut-off        
+rlist                    = 1.3 
+
+
+; OPTIONS FOR ELECTROSTATICS AND VDW
+; Method for doing electrostatics
+coulombtype              = User
+rcoulomb-switch          = 0
+rcoulomb                 = 1.2
+; Relative dielectric constant for the medium and the reaction field
+epsilon_r                = 1
+epsilon_rf               = 80 
+; Method for doing Van der Waals
+vdwtype                  = User
+; cut-off lengths       
+rvdw-switch              = 0
+rvdw                     = 1.2
+; Apply long range dispersion corrections for Energy and Pressure
+;DispCorr                 = EnerPres 
+; Extension of the potential lookup tables beyond the cut-off
+table-extension          = 1.0
+; Seperate tables between energy group pairs
+energygrp_table          = Nterm Nterm Nterm BBstandard Nterm NSPE1 Nterm NSPE2 Nterm NSPE3 Nterm NSPE4 Nterm NSPE5 Nterm NLYS1 Nterm NLYS2 Nterm NLYS3 Nterm PMEO1 Nterm PMEO2 Nterm PMEO3 Nterm PMEO4 Nterm PMEO5 Nterm Cterm Nterm H Nterm I BBstandard BBstandard BBstandard NSPE1 BBstandard NSPE2 BBstandard NSPE3 BBstandard NSPE4 BBstandard NSPE5 BBstandard NLYS1 BBstandard NLYS2 BBstandard NLYS3 BBstandard PMEO1 BBstandard PMEO2 BBstandard PMEO3 BBstandard PMEO4 BBstandard PMEO5 BBstandard Cterm BBstandard H BBstandard I NSPE1 NSPE1 NSPE1 NSPE2 NSPE1 NSPE3 NSPE1 NSPE4 NSPE1 NSPE5 NSPE1 NLYS1 NSPE1 NLYS2 NSPE1 NLYS3 NSPE1 PMEO1 NSPE1 PMEO2 NSPE1 PMEO3 NSPE1 PMEO4 NSPE1 PMEO5 NSPE1 Cterm NSPE1 H NSPE1 I NSPE2 NSPE2 NSPE2 NSPE3 NSPE2 NSPE4 NSPE2 NSPE5 NSPE2 NLYS1 NSPE2 NLYS2 NSPE2 NLYS3 NSPE2 PMEO1 NSPE2 PMEO2 NSPE2 PMEO3 NSPE2 PMEO4 NSPE2 PMEO5 NSPE2 Cterm NSPE2 H NSPE2 I NSPE3 NSPE3 NSPE3 NSPE4 NSPE3 NSPE5 NSPE3 NLYS1 NSPE3 NLYS2 NSPE3 NLYS3 NSPE3 PMEO1 NSPE3 PMEO2 NSPE3 PMEO3 NSPE3 PMEO4 NSPE3 PMEO5 NSPE3 Cterm NSPE3 H NSPE3 I NSPE4 NSPE4 NSPE4 NSPE5 NSPE4 NLYS1 NSPE4 NLYS2 NSPE4 NLYS3 NSPE4 PMEO1 NSPE4 PMEO2 NSPE4 PMEO3 NSPE4 PMEO4 NSPE4 PMEO5 NSPE4 Cterm NSPE4 H NSPE4 I NSPE5 NSPE5 NSPE5 NLYS1 NSPE5 NLYS2 NSPE5 NLYS3 NSPE5 PMEO1 NSPE5 PMEO2 NSPE5 PMEO3 NSPE5 PMEO4 NSPE5 PMEO5 NSPE5 Cterm NSPE5 H NSPE5 I NLYS1 NLYS1 NLYS1 NLYS2 NLYS1 NLYS3 NLYS1 PMEO1 NLYS1 PMEO2 NLYS1 PMEO3 NLYS1 PMEO4 NLYS1 PMEO5 NLYS1 Cterm NLYS1 H NLYS1 I NLYS2 NLYS2 NLYS2 NLYS3 NLYS2 PMEO1 NLYS2 PMEO2 NLYS2 PMEO3 NLYS2 PMEO4 NLYS2 PMEO5 NLYS2 Cterm NLYS2 H NLYS2 I NLYS3 NLYS3 NLYS3 PMEO1 NLYS3 PMEO2 NLYS3 PMEO3 NLYS3 PMEO4 NLYS3 PMEO5 NLYS3 Cterm NLYS3 H NLYS3 I PMEO1 PMEO1 PMEO1 PMEO2 PMEO1 PMEO3 PMEO1 PMEO4 PMEO1 PMEO5 PMEO1 Cterm PMEO1 H PMEO1 I PMEO2 PMEO2 PMEO2 PMEO3 PMEO2 PMEO4 PMEO2 PMEO5 PMEO2 Cterm PMEO2 H PMEO2 I PMEO3 PMEO3 PMEO3 PMEO4 PMEO3 PMEO5 PMEO3 Cterm PMEO3 H PMEO3 I PMEO4 PMEO4 PMEO4 PMEO5 PMEO4 Cterm PMEO4 H PMEO4 I PMEO5 PMEO5 PMEO5 Cterm PMEO5 H PMEO5 I Cterm Cterm Cterm H Cterm I H H H I I I  
+
+; Spacing for the PME/PPPM FFT grid
+fourierspacing           = 0.12
+; FFT grid size, when a value is 0 fourierspacing will be used
+fourier_nx               = 0
+fourier_ny               = 0
+fourier_nz               = 0
+; EWALD/PME/PPPM parameters
+pme_order                = 4
+ewald_rtol               = 1e-05
+ewald_geometry           = 3d
+epsilon_surface          = 0
+
+; OPTIONS FOR WEAK COUPLING ALGORITHMS
+; Temperature coupling  
+tcoupl                   = no
+; Groups to couple separately
+tc-grps                  = System
+; Time constant (ps) and reference temperature (K)
+tau_t                    = 1.0
+ref_t                    = 300
+; Pressure coupling     
+Pcoupl                   = no
+pcoupltype               = isotropic
+; Time constant (ps), compressibility (1/bar) and reference P (bar)
+tau_p                    = 0.5
+compressibility          = 4.5e-5
+ref_p                    = 1.0
+
+
+; GENERATE VELOCITIES FOR STARTUP RUN
+gen_vel                  = no
+gen_temp                 = 300
+gen_seed                 = -1
+
+; OPTIONS FOR BONDS    
+constraints              = none
+; Type of constraint algorithm
+constraint_algorithm     = LINCS
+; Use successive overrelaxation to reduce the number of shake iterations
+Shake-SOR                = no
+; Relative tolerance of shake
+shake-tol                = 1e-04
+; Highest order in the expansion of the constraint coupling matrix
+lincs-order              = 4
+; Number of iterations in the final step of LINCS. 1 is fine for
+; normal simulations, but use 2 to conserve energy in NVE runs.
+; For energy minimization with constraints it should be 4 to 8.
+lincs_iter               = 2
+; Lincs will write a warning to the stderr if in one step a bond
+; rotates over more degrees than
+lincs-warnangle          = 30
+; Convert harmonic bonds to morse potentials
+morse                    = no
+
+; ENERGY GROUP EXCLUSIONS
+; Pairs of energy groups for which all non-bonded interactions are excluded
+energygrp_excl           =  
+
+
+
+; IMPLICIT SOLVENT ALGORITHM
+implicit_solvent         = no
+
+; GENERALIZED BORN ELECTROSTATICS
+; Algorithm for calculating Born radii
+gb_algorithm             = OBC
+; Frequency of calculating the Born radii inside rlist
+nstgbradii               = 1
+; Cutoff for Born radii calculation; the contribution from atoms
+; between rlist and rgbradii is updated every nstlist steps
+rgbradii                 = 1.5
+; Dielectric coefficient of the implicit solvent
+gb_epsilon_solvent       = 80
+; Salt concentration in M for Generalized Born models
+gb_saltconc              = 0
+; Scaling factors used in the OBC GB model. Default values are OBC(II)
+gb_obc_alpha             = 1
+gb_obc_beta              = 0.8
+gb_obc_gamma             = 4.85
+; Surface tension (kJ/mol/nm^2) for the SA (nonpolar surface) part of GBSA
+; The default value (2.092) corresponds to 0.005 kcal/mol/Angstrom^2.
+sa_surface_tension       = 2.092
+
+
