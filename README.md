@@ -4,7 +4,7 @@ This repository consists of files required to build and analyze CG models for pe
 
 Our coarse-graining workflow is: 
 
-1. AA Model: First, we build an AA model using the MFTOID force field. 
+1. [AA Model](https://github.com/duttm/Multiscale-Multiresolution-CG-Models-for-Peptoids/tree/main/Nspe-Npmb-NLys/AA-Model) : First, we build an AA model using the MFTOID force field. 
 
 2. AA-References: Next, we sample the AA trajectories and store the data as reference distributions. For example, to sample the structure of a nonbonded pairwise interaction, we measure the radial distribution function (RDF) of the interaction. We call the RDF as the AA-reference for the given interaction.
 
