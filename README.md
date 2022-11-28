@@ -16,6 +16,8 @@ Our coarse-graining workflow is:
 
 6. [CG-Simulation](Nspe-Npmb-NLys/CG-Simulation): We have included files required to run a CG simulation for: a) a single peptoid system in aqueous solution and b) 64 peptoids in aqueous solution.  
 
+7. [CG-Analysis](Nspe-Npmb-NLys/CG-Analysis) : We analyze local and overall properties of the CG model. For example, we compare the end-to-end distance of the peptoid across AA and CG resolutions. 
+
 
 
 
