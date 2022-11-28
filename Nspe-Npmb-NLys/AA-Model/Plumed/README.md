@@ -2,6 +2,8 @@
 
 Plumed is used to implement an enhanced sampling technique known as Metadynamics. 
 
+Specially, we apply parallel-baised metadynamics. The input parameters for this technique is adapted from Zhao et al [[1](https://dx.doi.org/10.1021/acs.jpcb.0c04567?ref=pdf)]
+
 Why do we need MetaD? :The omega dihedral in a peptoid backbone, i.e.,
 Calpha - Carbonyl_carbon- Nitrogen - Calpha needs to sample cis and trans isomerization states. A unbiased MD simulation cannot do so
 within a reasonable amount of time. MetaD helps in sampling both cis and trans states of the omega dihedral within a minimum of 20 ns.
