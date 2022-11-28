@@ -12,4 +12,6 @@ In this folder:
 
 *The ./driver.bash has all the bash scripts (if you want to execute all the scripts at once). This is not advisable in the first attempt as it will be difficult to  diagnose errors.)*
 
-For step 3, the plumed data file is required. This is described in P3/Plumed
+For step 3, the plumed data file is required. This is described in `Plumed`
+
+
