@@ -1,0 +1,175 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+
+
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond1</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+ 
+ 
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond2</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond3</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond4</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond5</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond6</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond7</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond8</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+  
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond9</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+   
+  <bonded>
+    <!-- name of the interaction -->
+    <name>bond10</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+   <bonded>
+    <!-- name of the interaction -->
+    <name>bondNB</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+ 
+    <bonded>
+    <!-- name of the interaction -->
+    <name>bondCB</name>
+    <!-- fmatch specific stuff -->
+    
+    <min>0.0</min>
+    <max>0.5</max>
+	<step>0.002</step>
+ </bonded>
+  
+  
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

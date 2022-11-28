@@ -1,0 +1,111 @@
+<cg>
+  <nbsearch>grid</nbsearch>
+  <!--fmatch section -->
+  <fmatch>
+    <!--Number of different CG beads in the system. SHOULD BE KICKED OUT!!! -->
+    <constrainedLS>true</constrainedLS>
+    <!--Number of frames for block averaging -->
+    <frames_per_block>2000</frames_per_block>
+  </fmatch>
+
+
+
+  
+         <non-bonded>
+    <name>Nterm-H</name>
+    <type1>Nterm</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+           <non-bonded>
+    <name>BBstandard-H</name>
+    <type1>BBstandard</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+  
+               <non-bonded>
+    <name>NSPE3-H</name>
+    <type1>NSPE3</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+      
+  
+  
+                 <non-bonded>
+    <name>NLYS2-H</name>
+    <type1>NLYS2</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+  
+  
+                   <non-bonded>
+    <name>PMEO3-H</name>
+    <type1>PMEO3</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+                 
+  
+                   <non-bonded>
+    <name>Cterm-H</name>
+    <type1>Cterm</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+    
+                   <non-bonded>
+    <name>I-H</name>
+    <type1>I</type1>
+    <type2>H</type2>
+    <min>0</min>
+    <max>1.0</max>
+    <step>0.01</step>
+  </non-bonded>
+  
+  
+  
+  
+  
+  
+          
+  
+
+   <inverse>
+    <gromacs>
+      <pot_max>1e8</pot_max>
+      <table_end>2.5</table_end>
+      <table_bins>0.002</table_bins>
+    </gromacs>
+  </inverse>
+
+
+
+
+
+</cg>

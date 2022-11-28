@@ -1,0 +1,1796 @@
+<cg_molecule>
+  <name>P3</name> <!-- the name of the molecule after mapping -->
+  <ident>SRUG</ident> <!-- the name of the molecule in atomistic topology -->
+  <topology>
+    <cg_beads>
+<cg_bead>
+<name>YN</name>
+<type>Nterm</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:YN
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB1</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB1
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A11</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A11
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A12</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A12
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A13</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A13
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A14</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A14
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A15</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A15
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB2</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB2
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>C11</name>
+<type>NLYS1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:C11
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>C12</name>
+<type>NLYS2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:C12
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>C13</name>
+<type>NLYS3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:C13
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB3</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB3
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A21</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A21
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A22</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A22
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A23</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A23
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A24</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A24
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A25</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A25
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB4</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB4
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A31</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A31
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A32</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A32
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A33</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A33
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A34</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A34
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A35</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A35
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB5</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB5
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B11</name>
+<type>PMEO1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B11
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B12</name>
+<type>PMEO2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B12
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B13</name>
+<type>PMEO3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B13
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B14</name>
+<type>PMEO4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B14
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B15</name>
+<type>PMEO5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B15
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB6</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB6
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A41</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A41
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A42</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A42
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A43</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A43
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A44</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A44
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A45</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A45
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB7</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB7
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A51</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A51
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A52</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A52
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A53</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A53
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A54</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A54
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A55</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A55
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB8</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB8
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>C21</name>
+<type>NLYS1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:C21
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>C22</name>
+<type>NLYS2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:C22
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>C23</name>
+<type>NLYS3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:C23
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB9</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB9
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A61</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A61
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A62</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A62
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A63</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A63
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A64</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A64
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A65</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A65
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB10</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB10
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A71</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A71
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A72</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A72
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A73</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A73
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A74</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A74
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A75</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A75
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>XBB11</name>
+<type>BBstandard</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:XBB11
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B21</name>
+<type>PMEO1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B21
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B22</name>
+<type>PMEO2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B22
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B23</name>
+<type>PMEO3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B23
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B24</name>
+<type>PMEO4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B24
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>B25</name>
+<type>PMEO5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:B25
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>YC</name>
+<type>Cterm</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:YC
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A81</name>
+<type>NSPE1</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A81
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A82</name>
+<type>NSPE2</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A82
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A83</name>
+<type>NSPE3</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A83
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A84</name>
+<type>NSPE4</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A84
+</beads>
+</cg_bead>
+
+
+<cg_bead>
+<name>A85</name>
+<type>NSPE5</type>
+<mapping>UNITY</mapping>
+<beads>
+1:P3:A85
+</beads>
+</cg_bead>
+   
+   </cg_beads>
+ <cg_bonded>
+
+    
+      
+          <bond>
+        <name>bond1</name>
+        <beads>
+         XBB1 XBB2
+        </beads>
+      </bond>
+      
+          <bond>
+        <name>bond2</name>
+        <beads>
+      
+         XBB2 XBB3
+      
+        </beads>
+      </bond>
+      
+               <bond>
+        <name>bond3</name>
+        <beads>
+      
+         XBB3 XBB4
+      
+        </beads>
+      </bond>
+
+
+         <bond>
+        <name>bond4</name>
+        <beads>
+      
+         XBB4 XBB5
+      
+        </beads>
+      </bond>
+
+
+         <bond>
+        <name>bond5</name>
+        <beads>
+      
+         XBB5 XBB6
+      
+        </beads>
+      </bond>
+      
+             <bond>
+        <name>bond6</name>
+        <beads>
+      
+           XBB6 XBB7
+      
+        </beads>
+      </bond>
+      
+            <bond>
+        <name>bond7</name>
+        <beads>
+      
+          XBB7 XBB8
+      
+        </beads>
+      </bond>
+      
+         <bond>
+        <name>bond8</name>
+        <beads>
+      
+         XBB8 XBB9
+      
+        </beads>
+      </bond>
+      
+               <bond>
+        <name>bond9</name>
+        <beads>
+      
+         XBB9 XBB10
+      
+        </beads>
+      </bond>
+      
+             <bond>
+        <name>bond10</name>
+        <beads>
+      
+         XBB10 XBB11
+      
+        </beads>
+      </bond>
+
+       <bond>
+        <name>bondNB</name>
+        <beads>
+      
+         YN XBB1
+      
+        </beads>
+      </bond>
+      
+         <bond>
+        <name>bondCB</name>
+        <beads>
+      
+         YC XBB11
+      
+        </beads>
+      </bond>
+
+      
+           <bond>
+        <name>bond-XBB1-A11</name>
+        <beads>
+         XBB1 A11
+        </beads>
+      </bond>
+      
+          <bond>
+        <name>bond-XBB2-C11</name>
+        <beads>
+      
+         XBB2 C11
+      
+        </beads>
+      </bond>
+      
+               <bond>
+        <name>bond-XBB3-A21</name>
+        <beads>
+      
+         XBB3 A21
+      
+        </beads>
+      </bond>
+
+
+         <bond>
+        <name>bond-XBB4-A31</name>
+        <beads>
+      
+         XBB4 A31
+      
+        </beads>
+      </bond>
+
+
+         <bond>
+        <name>bond-XBB5-B11</name>
+        <beads>
+      
+         XBB5 B11
+      
+        </beads>
+      </bond>
+      
+             <bond>
+        <name>bond-XBB6-A41</name>
+        <beads>
+      
+           XBB6 A41
+      
+        </beads>
+      </bond>
+      
+            <bond>
+        <name>bond-XBB7-A51</name>
+        <beads>
+      
+          XBB7 A51
+      
+        </beads>
+      </bond>
+      
+         <bond>
+        <name>bond-XBB8-C21</name>
+        <beads>
+      
+         XBB8 C21
+      
+        </beads>
+      </bond>
+      
+               <bond>
+        <name>bond-XBB9-A61</name>
+        <beads>
+      
+         XBB9 A61
+      
+        </beads>
+      </bond>
+      
+             <bond>
+        <name>bond-XBB10-A71</name>
+        <beads>
+      
+         XBB10 A71
+      
+        </beads>
+      </bond>
+
+       <bond>
+        <name>bond-XBB11-B21</name>
+        <beads>
+      
+         XBB11 B21
+      
+        </beads>
+      </bond>
+      
+         <bond>
+        <name>bond-YC-A81</name>
+        <beads>
+      
+         YC A81
+      
+        </beads>
+      </bond>
+
+       
+           
+          <bond>
+        <name>NSPE1-NSPE2</name>
+        <beads>
+A11	A12
+A21	A22
+A31	A32
+A41	A42
+A51	A52
+A61	A62
+A71	A72
+A81	A82
+    
+        </beads>
+      </bond>
+      
+            
+          <bond>
+        <name>NSPE1-NSPE3</name>
+        <beads>
+A11	A13
+A21	A23
+A31	A33
+A41	A43
+A51	A53
+A61	A63
+A71	A73
+A81	A83
+        </beads>
+      </bond>
+      
+      
+                <bond>
+        <name>NSPE3-NSPE4</name>
+        <beads>
+A13	A14
+A23	A24
+A33	A34
+A43	A44
+A53	A54
+A63	A64
+A73	A74
+A83	A84
+        </beads>
+      </bond>
+      
+                <bond>
+        <name>NSPE4-NSPE5</name>
+        <beads>
+A14	A15
+A24	A25
+A34	A35
+A44	A45
+A54	A55
+A64	A65
+A74	A75
+A84	A85
+        </beads>
+      </bond>
+      
+                <bond>
+        <name>NSPE3-NSPE5</name>
+        <beads>
+A13	A15
+A23	A25
+A33	A35
+A43	A45
+A53	A55
+A63	A65
+A73	A75
+A83	A85
+        </beads>
+      </bond>
+
+      
+          <bond>
+        <name>NLYS1-NLYS2</name>
+        <beads>
+             C11 C12
+             C21 C22
+        </beads>
+      </bond>
+      
+      
+      
+          <bond>
+        <name>NLYS2-NLYS3</name>
+        <beads>
+              C12 C13
+              C22 C23
+        </beads>
+      </bond>
+      
+      
+                <bond>
+        <name>PMEO1-PMEO2</name>
+        <beads>
+             B11 B12
+             B21 B22
+        </beads>
+      </bond>
+      
+      
+      
+          <bond>
+        <name>PMEO2-PMEO3</name>
+        <beads>
+              B12 B13
+              B22 B23
+        </beads>
+      </bond>
+      
+      
+          <bond>
+        <name>PMEO3-PMEO4</name>
+        <beads>
+              B13 B14
+              B23 B24
+        </beads>
+      </bond>
+      
+      
+      
+          <bond>
+        <name>PMEO2-PMEO4</name>
+        <beads>
+              B12 B14
+              B22 B24
+        </beads>
+      </bond>
+      
+      
+          <bond>
+        <name>PMEO3-PMEO5</name>
+        <beads>
+                B13 B15
+                B23 B25
+    
+        </beads>
+      </bond>
+
+      <angle>
+      <name>YN-BB1-BB2</name>
+      <beads>
+        YN XBB1 XBB2
+      
+      </beads>
+    </angle>
+    
+    <angle>
+      <name>BB1-BB2-BB3</name>
+      <beads>
+        XBB1 XBB2 XBB3
+      
+      </beads>
+    </angle>
+    
+          <angle>
+      <name>BB2-BB3-BB4</name>
+      <beads>
+        XBB2 XBB3 XBB4
+      
+      </beads>
+    </angle>
+    
+          <angle>
+      <name>BB3-BB4-BB5</name>
+      <beads>
+        XBB3 XBB4 XBB5
+      
+      </beads>
+    </angle>
+    
+    
+           <angle>
+      <name>BB4-BB5-BB6</name>
+      <beads>
+        XBB4 XBB5 XBB6
+      
+      </beads>
+    </angle>
+      
+             <angle>
+      <name>BB5-BB6-BB7</name>
+      <beads>
+        XBB5 XBB6 XBB7
+      
+      </beads>
+    </angle>
+
+       <angle>
+      <name>BB6-BB7-BB8</name>
+      <beads>
+        XBB6 XBB7 XBB8
+      
+      </beads>
+    </angle>
+
+       <angle>
+      <name>BB7-BB8-BB9</name>
+      <beads>
+        XBB7 XBB8 XBB9
+      
+      </beads>
+    </angle>
+
+       <angle>
+      <name>BB8-BB9-BB10</name>
+      <beads>
+        XBB8 XBB9 XBB10
+      
+      </beads>
+    </angle>
+    
+           <angle>
+      <name>BB9-BB10-BB11</name>
+      <beads>
+        XBB9 XBB10 XBB11
+      
+      </beads>
+    </angle>
+
+           <angle>
+      <name>BB10-BB11-YC</name>
+      <beads>
+        XBB10 XBB11 YC
+      
+      </beads>
+    </angle>
+
+
+
+<angle>
+      <name>YN-XBB1-A11</name>
+      <beads>
+        YN XBB1 A11
+      
+      </beads>
+    </angle>
+    
+<angle>
+      <name>A11-XBB1-XBB2</name>
+      <beads>
+        A11 XBB1 XBB2
+      
+      </beads>
+    </angle>
+    
+    <angle>
+      <name>XBB1-A11-A12</name>
+      <beads>
+        XBB1 A11 A12
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>XBB1-A11-A13</name>
+      <beads>
+        XBB1 A11 A13
+      
+      </beads>
+    </angle>
+    
+    <angle>
+      <name>XBB1-XBB2-C11</name>
+      <beads>
+        XBB1 XBB2 C11
+      
+      </beads>
+    </angle>
+    
+    
+    <angle>
+      <name>C11-XBB2-XBB3</name>
+      <beads>
+        C11 XBB2 XBB3
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>XBB2-C11-C12</name>
+      <beads>
+        XBB2 C11 C12
+      
+      </beads>
+    </angle>
+    
+    
+    <angle>
+      <name>XBB2-XBB3-A21</name>
+      <beads>
+        XBB2 XBB3 A21
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>A21-XBB3-XBB4</name>
+      <beads>
+        A21 XBB3 XBB4
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>XBB3-A21-A22</name>
+      <beads>
+        XBB3 A21 A22
+      
+      </beads>
+    </angle>
+
+
+
+    <angle>
+      <name>XBB3-A21-A23</name>
+      <beads>
+        XBB3 A21 A22
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>XBB3-XBB4-A31</name>
+      <beads>
+        XBB3 XBB4 A31
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>A31-XBB4-XBB5</name>
+      <beads>
+        A31 XBB4 XBB5
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>XBB4-A31-A32</name>
+      <beads>
+        XBB4 A31 A32
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>XBB4-A31-A33</name>
+      <beads>
+        XBB4 A31 A33
+      
+      </beads>
+    </angle>
+    
+    
+     <angle>
+      <name>XBB4-XBB5-B11</name>
+      <beads>
+       XBB4 XBB5 B11
+      
+      </beads>
+    </angle>
+    
+    
+     <angle>
+      <name>B11-XBB5-XBB6</name>
+      <beads>
+        B11 XBB5 XBB6
+      
+      </beads>
+    </angle>
+    
+    
+     <angle>
+      <name>XBB5-B11-B12</name>
+      <beads>
+        XBB5 B11 B12
+      
+      </beads>
+    </angle>
+    
+    
+     <angle>
+      <name>XBB5-XBB6-A41</name>
+      <beads>
+        XBB5 XBB6 A41
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>A41-XBB6-XBB7</name>
+      <beads>
+        A41 XBB6 XBB7
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>XBB6-A41-A42</name>
+      <beads>
+       XBB6 A41 A42
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>XBB6-A41-A43</name>
+      <beads>
+        XBB6 A41 A43
+      
+      </beads>
+    </angle>
+    
+    
+        <angle>
+      <name>XBB6-XBB7-A51</name>
+      <beads>
+        XBB6 XBB7 A51
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>A51-XBB7-XBB8</name>
+      <beads>
+        A51 XBB7 XBB8
+      
+      </beads>
+    </angle>
+    
+    
+        <angle>
+      <name>XBB7-A51-A52</name>
+      <beads>
+        XBB7 A51 A52
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>XBB7-A51-A53</name>
+      <beads>
+        XBB7 A51 A53
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>XBB7-XBB8-C21</name>
+      <beads>
+        XBB7 XBB8 C21
+      
+      </beads>
+    </angle>
+
+
+
+    <angle>
+      <name>C21-XBB8-XBB9</name>
+      <beads>
+        C21 XBB8 XBB9
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>XBB8-C21-C22</name>
+      <beads>
+        XBB8 C21 C22
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>XBB8-XBB9-A61</name>
+      <beads>
+        XBB8 XBB9 A61
+   
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>A61-XBB9-XBB10</name>
+      <beads>
+        A61 XBB9 XBB10
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>XBB9-A61-A62</name>
+      <beads>
+        XBB9 A61 A62
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>XBB9-A61-A63</name>
+      <beads>
+        XBB9 A61 A63
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>XBB9-XBB10-A71</name>
+      <beads>
+        XBB9 XBB10 A71
+      
+      </beads>
+    </angle>
+
+
+
+     <angle>
+      <name>A71-XBB10-XBB11</name>
+      <beads>
+        A71 XBB10 XBB11
+      
+      </beads>
+    </angle>
+
+
+     <angle>
+      <name>XBB10-A71-A72</name>
+      <beads>
+        XBB10 A71 A72
+      
+      </beads>
+    </angle>
+
+
+
+     <angle>
+      <name>XBB10-A71-A73</name>
+      <beads>
+       XBB10 A71 A73
+      
+      </beads>
+    </angle>
+
+
+     <angle>
+      <name>XBB10-XBB11-B21</name>
+      <beads>
+        XBB10 XBB11 B21
+      
+      </beads>
+    </angle>
+
+
+     <angle>
+      <name>B21-XBB11-YC</name>
+      <beads>
+        B21 XBB11 YC
+      
+      </beads>
+    </angle>
+
+
+     <angle>
+      <name>XBB11-B21-B22</name>
+      <beads>
+        XBB11 B21 B22
+      
+      </beads>
+    </angle>
+
+     <angle>
+      <name>XBB11-YC-A81</name>
+      <beads>
+       XBB11 YC A81
+      
+      </beads>
+    </angle>
+
+
+     <angle>
+      <name>YC-A81-A82</name>
+      <beads>
+        YC A81 A82
+      
+      </beads>
+    </angle>
+    
+         <angle>
+      <name>YC-A81-A83</name>
+      <beads>
+        YC A81 A83
+      
+      </beads>
+    </angle>
+    
+    
+    
+<angle>
+      <name>NSPE2-NSPE1-NSPE3</name>
+      <beads>
+A12  A11  A13
+A22  A21  A23
+A32  A31  A33
+A42  A41  A43
+A52  A51  A53
+A62  A61  A63
+A72  A71  A73
+A82  A81  A83
+        
+      
+      </beads>
+    </angle>
+    
+<angle>
+      <name>NSPE1-NSPE3-NSPE5</name>
+      <beads>
+A11  A13  A15
+A21  A23  A25
+A31  A33  A35
+A41  A43  A45
+A51  A53  A55
+A61  A63  A65
+A71  A73  A75
+A81  A83  A85
+      
+      </beads>
+    </angle>
+    
+    <angle>
+      <name>NSPE1-NSPE3-NSPE4</name>
+      <beads>
+A11  A13  A14
+A21  A23  A24
+A31  A33  A34
+A41  A43  A44
+A51  A53  A54
+A61  A63  A64
+A71  A73  A74
+A81  A83  A84
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>NSPE3-NSPE4-NSPE5</name>
+      <beads>
+A13  A14  A15
+A23  A24  A25
+A33  A34  A35
+A43  A44  A45
+A53  A54  A55
+A63  A64  A65
+A73  A74  A75
+A83  A84  A85
+      
+      </beads>
+    </angle>
+    
+    <angle>
+      <name>NSPE4-NSPE5-NSPE3</name>
+      <beads>
+A14  A15  A13
+A24  A25  A23
+A34  A35  A33
+A44  A45  A43
+A54  A55  A53
+A64  A65  A63
+A74  A75  A73
+A84  A85  A83
+      
+      </beads>
+    </angle>
+    
+    
+    <angle>
+      <name>NSPE5-NSPE3-NSPE4</name>
+      <beads>
+A15  A13  A14
+A25  A23  A24
+A35  A33  A34
+A45  A43  A44
+A55  A53  A54
+A65  A63  A64
+A75  A73  A74
+A85  A83  A84
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>PMEO1-PMEO2-PMEO4</name>
+      <beads>
+B11  B12  B14
+B21  B22  B24
+      
+      </beads>
+    </angle>
+    
+    
+    <angle>
+      <name>PMEO1-PMEO2-PMEO3</name>
+      <beads>
+B11  B12  B13
+B21  B22  B23
+      
+      </beads>
+    </angle>
+    
+        <angle>
+      <name>PMEO2-PMEO3-PMEO4</name>
+      <beads>
+B12  B13  B14
+B22  B23  B24
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>PMEO3-PMEO4-PMEO2</name>
+      <beads>
+B13  B14  B12
+B23  B24  B22
+      
+      </beads>
+    </angle>
+
+
+
+    <angle>
+      <name>PMEO4-PMEO2-PMEO3</name>
+      <beads>
+B14  B12  B13
+B24  B22  B23
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>PMEO2-PMEO3-PMEO5</name>
+      <beads>
+B12  B13  B15
+B22  B23  B25
+      
+      </beads>
+    </angle>
+
+
+    <angle>
+      <name>PMEO4-PMEO3-PMEO5</name>
+      <beads>
+B14  B13  B15
+B24  B23  B25
+      
+      </beads>
+    </angle>
+    
+     <angle>
+      <name>NLYS1-NLYS2-NLYS3</name>
+      <beads>
+        C11 C12 C13
+        C21 C22 C23
+      
+      </beads>
+    </angle>
+    
+    
+    
+<dihedral>
+      <name>YN-BB1-BB2-BB3</name>
+      <beads>
+        YN XBB1 XBB2 XBB3
+      
+      </beads>
+    </dihedral>
+    
+    
+    <dihedral>
+      <name>BB1-BB2-BB3-BB4</name>
+      <beads>
+        XBB1 XBB2 XBB3 XBB4
+      
+      </beads>
+    </dihedral>
+    
+
+    <dihedral>
+      <name>BB2-BB3-BB4-BB5</name>
+      <beads>
+        XBB2 XBB3 XBB4 XBB5
+      
+      </beads>
+    </dihedral>
+    
+    
+        <dihedral>
+      <name>BB3-BB4-BB5-BB6</name>
+      <beads>
+        XBB3 XBB4 XBB5 XBB6
+      
+      </beads>
+    </dihedral>
+    
+        <dihedral>
+      <name>BB4-BB5-BB6-BB7</name>
+      <beads>
+        XBB4 XBB5 XBB6 XBB7
+      
+      </beads>
+    </dihedral>
+    
+        <dihedral>
+      <name>BB5-BB6-BB7-BB8</name>
+      <beads>
+        XBB5 XBB6 XBB7 XBB8
+      
+      </beads>
+    </dihedral>
+
+    <dihedral>
+      <name>BB6-BB7-BB8-BB9</name>
+      <beads>
+        XBB6 XBB7 XBB8 XBB9
+      
+      </beads>
+    </dihedral>
+    
+        <dihedral>
+      <name>BB7-BB8-BB9-BB10</name>
+      <beads>
+        XBB7 XBB8 XBB9 XBB10
+      
+      </beads>
+    </dihedral>
+    
+        <dihedral>
+      <name>BB8-BB9-BB10-BB11</name>
+      <beads>
+        XBB8 XBB9 XBB10 XBB11
+      
+      </beads>
+    </dihedral>
+
+
+    <dihedral>
+      <name>BB9-BB10-BB11-YC</name>
+      <beads>
+        XBB9 XBB10 XBB11 YC
+      
+      </beads>
+    </dihedral>
+
+
+  </cg_bonded>
+
+  </topology>
+  <maps>
+
+
+    <map>
+      <name>UNITY</name>
+      <weights>1</weights>
+    </map>
+
+
+
+  </maps>
+</cg_molecule>
+

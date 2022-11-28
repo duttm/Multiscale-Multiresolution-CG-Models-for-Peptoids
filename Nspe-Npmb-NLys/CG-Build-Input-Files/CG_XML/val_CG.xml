@@ -1,0 +1,593 @@
+<cg_molecule>
+  <name>VK</name> <!-- the name of the molecule after mapping -->
+  <ident>Protein</ident> <!-- the name of the molecule in atomistic topology -->
+  <topology>
+    <cg_beads>
+
+
+  <cg_bead>
+        <name>ACE</name>
+        <type>X</type>
+        <mapping>UNITY</mapping>
+        <beads>
+            1:VK:ACE  
+        </beads>
+      </cg_bead>
+
+     <cg_bead>
+        <name>VAL1</name>
+        <type>A</type>
+        <mapping>UNITY</mapping>
+        <beads>
+            1:VK:VAL1   
+        </beads>
+      </cg_bead>
+
+
+
+ <cg_bead>
+        <name>VAL2</name>
+        <type>B</type>
+       <mapping>UNITY</mapping>
+        <beads>
+           1:VK:VAL2   
+        </beads>
+      </cg_bead>
+
+
+    <cg_bead>
+        <name>VAL12</name>
+        <type>A1</type>
+        <mapping>UNITY</mapping>
+        <beads>
+             1:VK:VAL12   
+        </beads>
+      </cg_bead>
+
+
+
+ <cg_bead>
+        <name>VAL22</name>
+        <type>B1</type>
+        <mapping>UNITY</mapping>
+        <beads>
+                1:VK:VAL22
+        </beads>
+      </cg_bead>
+
+
+
+    <cg_bead>
+        <name>VAL13</name>
+        <type>A2</type>
+       <mapping>UNITY</mapping>
+        <beads>
+          1:VK:VAL13
+        </beads>
+      </cg_bead>
+
+
+
+ <cg_bead>
+        <name>VAL23</name>
+        <type>B2</type>
+        <mapping>UNITY</mapping>
+        <beads>
+           1:VK:VAL23  
+        </beads>
+      </cg_bead>
+
+
+    <cg_bead>
+        <name>VAL14</name>
+        <type>A3</type>
+        <mapping>UNITY</mapping>
+        <beads>
+          1:VK:VAL14
+        </beads>
+      </cg_bead>
+
+
+
+ <cg_bead>
+        <name>VAL24</name>
+        <type>B3</type>
+       <mapping>UNITY</mapping>
+        <beads>
+           1:VK:VAL24
+        </beads>
+      </cg_bead>
+
+    <cg_bead>
+        <name>VAL15</name>
+        <type>A4</type>
+       <mapping>UNITY</mapping>
+        <beads>
+          1:VK:VAL15
+        </beads>
+      </cg_bead>
+
+
+
+ <cg_bead>
+        <name>VAL25</name>
+        <type>B4</type>
+        <mapping>UNITY</mapping>
+        <beads>
+     1:VK:VAL25
+        </beads>
+      </cg_bead>
+
+
+    <cg_bead>
+        <name>VAL16</name>
+        <type>A5</type>
+        <mapping>UNITY</mapping>
+        <beads>
+          1:VK:VAL16
+        </beads>
+      </cg_bead>
+
+
+
+ <cg_bead>
+        <name>VAL26</name>
+        <type>B5</type>
+        <mapping>UNITY</mapping>
+        <beads>
+     1:VK:VAL26
+        </beads>
+      </cg_bead>
+
+
+
+
+<cg_bead>
+
+        <name>LYS1</name>
+        <type>C</type>
+      <mapping>UNITY</mapping>
+        <beads>
+           1:VK:LYS1
+
+        </beads>
+      </cg_bead>
+
+
+<cg_bead>
+
+        <name>LYS2</name>
+        <type>D</type>
+       <mapping>UNITY</mapping>
+        <beads>
+       1:VK:LYS2   
+
+        </beads>
+      </cg_bead>
+
+
+
+<cg_bead>
+
+        <name>LYS3</name>
+        <type>E</type>
+       <mapping>UNITY</mapping>
+        <beads>
+          1:VK:LYS3
+
+         </beads>
+      </cg_bead>
+<cg_bead>
+
+        <name>LYS11</name>
+        <type>C1</type>
+       <mapping>UNITY</mapping>
+        <beads>
+        1:VK:LYS11 
+
+        </beads>
+      </cg_bead>
+
+
+<cg_bead>
+
+        <name>LYS21</name>
+        <type>D1</type>
+     <mapping>UNITY</mapping>
+        <beads>
+      1:VK:LYS21
+
+        </beads>
+      </cg_bead>
+
+
+
+<cg_bead>
+
+        <name>LYS31</name>
+        <type>E1</type>
+      <mapping>UNITY</mapping>
+        <beads>
+           1:VK:LYS31
+
+        </beads>
+      </cg_bead>
+
+<cg_bead>
+
+        <name>NHE</name>
+        <type>Y</type>
+      <mapping>UNITY</mapping>
+        <beads>
+           1:VK:NHE 
+
+        </beads>
+      </cg_bead>
+
+   </cg_beads>
+  <cg_bonded>
+  
+  <bond>
+      <name>bond_tail_e2e</name>
+      <beads>
+        VAL1 VAL16
+    
+      </beads>
+    </bond>
+    
+     <bond>
+      <name>bond_full_e2e</name>
+      <beads>
+        VAL1 LYS11
+    
+      </beads>
+    </bond>
+    
+  
+  
+
+<bond>
+      <name>bond_201</name>
+      <beads>
+        LYS1 LYS11
+    
+      </beads>
+    </bond>
+     
+<bond>
+      <name>bond_202</name>
+      <beads>
+        LYS11 LYS21
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_202_v</name>
+      <beads>
+        LYS1 LYS2
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_203</name>
+      <beads>
+        LYS21 LYS31
+    
+      </beads>
+    </bond>
+
+
+<bond>
+      <name>bond_203_v</name>
+      <beads>
+        LYS2 LYS3
+    
+      </beads>
+    </bond>
+<bond>
+      <name>bond_204</name>
+      <beads>
+        LYS11 NHE
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_300</name>
+      <beads>
+        VAL2 VAL22
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_301</name>
+      <beads>
+        VAL22 VAL23
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_302</name>
+      <beads>
+        VAL23 VAL24
+    
+      </beads>
+    </bond>
+
+
+<bond>
+      <name>bond_303</name>
+      <beads>
+        VAL24 VAL25
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_304</name>
+      <beads>
+        VAL25 VAL26
+    
+      </beads>
+    </bond>
+
+
+<bond>
+      <name>bond_305</name>
+      <beads>
+        VAL2 VAL23
+    
+      </beads>
+    </bond>
+
+
+<bond>
+      <name>bond_306</name>
+      <beads>
+        VAL22 VAL24
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_307</name>
+      <beads>
+        VAL23 VAL25
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_308</name>
+      <beads>
+        VAL24 VAL26
+    
+      </beads>
+    </bond>
+
+
+<bond>
+      <name>bond_309</name>
+      <beads>
+        VAL24 VAL26
+    
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_310</name>
+      <beads>
+        VAL2 VAL23
+        VAL22 VAL24
+         VAL23 VAL25
+         VAL24 VAL26    
+      </beads>
+    </bond>
+
+
+<bond>
+      <name>bond_311</name>
+      <beads>
+        VAL2 VAL22
+        VAL22 VAL23
+         VAL23 VAL24
+         VAL24 VAL25   
+         VAL25 VAL26  
+      </beads>
+    </bond>
+
+<bond>
+      <name>bond_401</name>
+      <beads>
+        LYS3   LYS31  
+      </beads>
+    </bond>
+
+
+
+
+<angle>
+      <name>angle_201</name>
+      <beads>
+     LYS1 LYS11 LYS21 
+      </beads>
+    </angle>
+
+
+<angle>
+      <name>angle_202</name>
+      <beads>
+     LYS1 LYS11 NHE 
+      </beads>
+    </angle>
+
+
+<angle>
+      <name>angle_203</name>
+      <beads>
+     LYS11 LYS21 LYS31 
+      </beads>
+    </angle>
+
+
+<angle>
+      <name>angle_203_v</name>
+      <beads>
+     LYS1 LYS2 LYS3 
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_204</name>
+      <beads>
+     NHE LYS11 LYS21 
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_205</name>
+      <beads>
+     VAL16 LYS1 LYS11
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_206</name>
+      <beads>
+     VAL14 VAL16 LYS2
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_207</name>
+      <beads>
+     VAL14 VAL16 LYS21
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_208</name>
+      <beads>
+     LYS2 LYS1 LYS11
+      </beads>
+    </angle>
+
+
+<angle>
+      <name>angle_209</name>
+      <beads>
+     VAL1 VAL14 VAL16
+      </beads>
+    </angle>
+
+
+
+<angle>
+      <name>angle_210</name>
+      <beads>
+     VAL14 LYS1 LYS21
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_301</name>
+      <beads>
+     LYS3  LYS1  LYS21
+      </beads>
+    </angle>
+
+
+<angle>
+      <name>angle_302</name>
+      <beads>
+     LYS31  LYS11  LYS2
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_400</name>
+      <beads>
+     VAL1	VAL13	VAL15
+      </beads>
+    </angle>
+<angle>
+      <name>angle_401</name>
+      <beads>
+     VAL12 VAL14 VAL16
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_500</name>
+      <beads>
+     VAL25 VAL16 LYS2
+      </beads>
+    </angle>
+
+<angle>
+      <name>angle_501</name>
+      <beads>
+     VAL25 VAL16 LYS11
+      </beads>
+    </angle>
+
+    
+    <angle>
+      <name>angle_502</name>
+      <beads>
+     VAL14 VAL16 LYS11
+      </beads>
+    </angle>
+
+
+
+<dihedral>
+      <name>dihedral_1</name>
+      <beads>
+     VAL15 VAL16 LYS1 LYS2 
+ </beads>
+      </dihedral>
+
+<dihedral>
+      <name>dihedral_2</name>
+      <beads>
+     VAL1 VAL12 VAL13 VAL14
+     VAL12 VAL13 VAL14 VAL15
+     VAL13 VAL14 VAL15 VAL16
+ </beads>
+      </dihedral>
+
+
+<dihedral>
+      <name>dihedral_201</name>
+      <beads>
+     VAL15 VAL16 LYS1 LYS11
+ </beads>
+      </dihedral>
+
+<dihedral>
+      <name>dihedral_202</name>
+      <beads>
+     LYS1 LYS2 LYS11 LYS21
+ </beads>
+      </dihedral>
+    
+
+
+
+  </cg_bonded>
+
+  </topology>
+  <maps>
+
+    <map>
+      <name>UNITY</name>
+      <weights>1</weights>
+    </map>
+
+  </maps>
+</cg_molecule>

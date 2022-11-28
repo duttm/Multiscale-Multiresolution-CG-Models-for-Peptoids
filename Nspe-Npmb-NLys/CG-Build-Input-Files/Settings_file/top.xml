@@ -1,0 +1,461 @@
+<cg>
+  <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>Nterm-H</name>
+    <!-- types involved in this interaction -->
+    <type1>Nterm</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>Nterm-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_Nterm_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>BBstandard-H</name>
+    <!-- types involved in this interaction -->
+    <type1>BBstandard</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>BBstandard-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_BBstandard_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NSPE1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NSPE1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NSPE1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NSPE1_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NSPE2-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NSPE2</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NSPE2-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NSPE2_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NSPE3-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NSPE3</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NSPE3-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NSPE3_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NSPE4-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NSPE4</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NSPE4-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NSPE4_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NSPE5-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NSPE5</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NSPE5-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NSPE5_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NLYS1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NLYS1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NLYS1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NLYS1_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NLYS2-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NLYS2</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NLYS2-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NLYS2_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>NLYS3-H</name>
+    <!-- types involved in this interaction -->
+    <type1>NLYS3</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>NLYS3-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_NLYS3_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>PMEO1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>PMEO1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>PMEO1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_PMEO1_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>PMEO2-H</name>
+    <!-- types involved in this interaction -->
+    <type1>PMEO2</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>PMEO2-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_PMEO2_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>PMEO3-H</name>
+    <!-- types involved in this interaction -->
+    <type1>PMEO3</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>PMEO3-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_PMEO3_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>PMEO4-H</name>
+    <!-- types involved in this interaction -->
+    <type1>PMEO4</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>PMEO4-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_PMEO4_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>PMEO5-H</name>
+    <!-- types involved in this interaction -->
+    <type1>PMEO5</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>PMEO5-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_PMEO5_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>Cterm-H</name>
+    <!-- types involved in this interaction -->
+    <type1>Cterm</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>Cterm-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_Cterm_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>I-H</name>
+    <!-- types involved in this interaction -->
+    <type1>I</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>I-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_I_H.xvg
+       </table>
+      </gromacs>
+     </inverse>
+    </non-bonded>
+

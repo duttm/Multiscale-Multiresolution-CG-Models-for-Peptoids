@@ -1,0 +1,17 @@
+        </mdrun>
+  
+      <grompp>
+      <bin>
+      mpirun -np 1 gmx_mpi grompp
+      </bin>
+      </grompp>
+
+      </gromacs>
+
+
+
+
+      <map>P3_CG_new.xml</map>
+      <map>water_CG.xml</map>
+      <map>chlorine_CG.xml</map>
+      <!-- these files are copied for each new run -->

@@ -1,0 +1,753 @@
+<cg>
+
+  <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>A-H</name>
+    <!-- types involved in this interaction -->
+    <type1>A</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>A-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_A_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+    <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>A1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>A1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>A1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_A1_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>A2-H</name>
+    <!-- types involved in this interaction -->
+    <type1>A2</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>A2-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_A2_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>A3-H</name>
+    <!-- types involved in this interaction -->
+    <type1>A3</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>A3-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_A3_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>A4-H</name>
+    <!-- types involved in this interaction -->
+    <type1>A4</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>A4-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_A4_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>A5-H</name>
+    <!-- types involved in this interaction -->
+    <type1>A5</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>A5-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_A5_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+  
+  
+
+  
+    <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>B-H</name>
+    <!-- types involved in this interaction -->
+    <type1>B</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>B-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_B_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+
+
+
+  
+    <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>B1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>B1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>B1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_B1_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+      <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>B2-H</name>
+    <!-- types involved in this interaction -->
+    <type1>B2</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>B2-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_B2_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+      <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>B3-H</name>
+    <!-- types involved in this interaction -->
+    <type1>B3</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>B3-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_B3_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+
+
+      <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>B4-H</name>
+    <!-- types involved in this interaction -->
+    <type1>B4</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>B4-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_B4_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+        <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>B5-H</name>
+    <!-- types involved in this interaction -->
+    <type1>B5</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>B5-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_B5_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>C-H</name>
+    <!-- types involved in this interaction -->
+    <type1>C</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>C-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_C_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>C1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>C1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>C1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_C1_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>D-H</name>
+    <!-- types involved in this interaction -->
+    <type1>D</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>D-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_D_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>D1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>D1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>D1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_D1_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>E-H</name>
+    <!-- types involved in this interaction -->
+    <type1>E</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>E-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_E_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>E1-H</name>
+    <!-- types involved in this interaction -->
+    <type1>E1</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>E1-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_E1_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+
+ <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>X-H</name>
+    <!-- types involved in this interaction -->
+    <type1>X</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>X-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_X_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+    <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>Y-H</name>
+    <!-- types involved in this interaction -->
+    <type1>Y</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>Y-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_Y_H.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+  
+  
+   <!-- example for a non-bonded interaction entry -->
+  <non-bonded>
+    <!-- name of the interaction -->
+    <name>I-H</name>
+    <!-- types involved in this interaction -->
+    <type1>I</type1>
+    <type2>H</type2>
+    <!-- dimension + grid spacing of tables for calculations -->
+    <min>0.0</min>
+    <max>1.0</max>
+    <step>0.02</step>
+    <inverse>
+      <!-- target distribution (rdf), just give gromas rdf.xvg -->
+      <target>I-H.dist.target</target>
+      <!-- update cycles -->
+      <do_potential>1</do_potential>
+      <!-- additional post processing of dU before added to potential -->
+      <post_update></post_update>
+      <!-- additional post processing of U after dU added to potential -->
+      <post_add></post_add>
+      <!-- name of the table for gromacs run -->
+      <gromacs>
+        <table>table_H_I.xvg 
+        </table>
+      </gromacs>
+    </inverse>
+  </non-bonded>
+  
+
+  
+   <!-- general options for inverse script -->
+    <inverse>
+      <!-- 300*0.00831451 gromacs units -->
+      <kBT>2.49435</kBT>
+      <!-- use gromacs as simulation program -->
+      <program>gromacs</program>
+      <!-- gromacs specific options -->
+      <gromacs>
+        <!-- trash so many frames at the beginning -->
+        <equi_time>20</equi_time>
+        <!-- grid for table*.xvg !-->
+        <table_bins>0.002</table_bins>
+        <!-- cut the potential at this value (gromacs bug) -->
+        <pot_max>1000000</pot_max>
+        <!-- extend the tables to this value -->
+        <table_end>2.5</table_end>
+        <mdrun>
+        <command>
+         mpirun -np 8 gmx_mpi mdrun
+      </command>
+     
+        <opts>-tableb table_b1.xvg table_b2.xvg table_b3420.xvg table_b5.xvg table_b6420.xvg table_b7.xvg table_b201.xvg table_b202420.xvg table_b8.xvg table_a1420.xvg table_a2420.xvg table_a3420.xvg table_a4420.xvg table_a5420.xvg table_a6420.xvg table_a8420.xvg table_a10420.xvg table_a205420.xvg table_a201420.xvg table_a202420.xvg  table_a9420.xvg table_a14420.xvg table_a15420.xvg  table_a208420.xvg   table_d1.xvg table_d2.xvg table_d202.xvg 
+              </opts>
+         
+        </mdrun>
+  
+      <grompp>
+      <bin>
+      mpirun -np 1 gmx_mpi grompp
+      </bin>
+      </grompp>
+
+      </gromacs>
+
+
+
+
+      <map>val_CG.xml</map>
+      <map>water.xml</map>
+      <map>chlorine.xml</map>
+      <!-- these files are copied for each new run -->
+      <filelist>grompp.mdp topol.top table.xvg index.ndx   table_b1.xvg table_b2.xvg table_b3420.xvg table_b5.xvg table_b6420.xvg table_b7.xvg table_b201.xvg table_b202420.xvg table_b8.xvg table_a1420.xvg table_a2420.xvg table_a3420.xvg table_a4420.xvg table_a5420.xvg table_a6420.xvg table_a8420.xvg table_a10420.xvg table_a205420.xvg table_a201420.xvg table_a202420.xvg table_a9420.xvg table_a14420.xvg table_a15420.xvg  table_a208420.xvg  table_b310420.xvg  table_b311420.xvg  table_d1.xvg table_d2.xvg table_d202.xvg table_a400.xvg table_a401.xvg table_a502.xvg
+
+    table_A3_I.xvg   table_B1_B4.xvg  table_B_B4.xvg
+    table_B1_B5.xvg  table_B_B5.xvg
+  table_A3_X.xvg   table_B1_C1.xvg  table_B_B.xvg
+   table_A3_Y.xvg   table_B1_C.xvg   table_B_C1.xvg
+   table_A4_A4.xvg  table_B1_D1.xvg  table_B_C.xvg
+  table_A4_A5.xvg  table_B1_D.xvg   table_B_D1.xvg
+   table_A4_B1.xvg  table_B1_E1.xvg  table_B_D.xvg
+    table_A4_B2.xvg  table_B1_E.xvg   table_B_E1.xvg
+  table_A4_B3.xvg    table_B_E.xvg
+    table_A4_B4.xvg  table_B1_I.xvg   
+table_A1_A1.xvg  table_A4_B5.xvg   
+table_A1_A2.xvg  table_A4_B.xvg   table_B1_X.xvg   table_B_I.xvg
+table_A1_A3.xvg  table_A4_C1.xvg  table_B1_Y.xvg   table_B_X.xvg
+table_A1_A4.xvg  table_A4_C.xvg     table_B_Y.xvg
+table_A1_A5.xvg  table_A4_D1.xvg     table_C1_C1.xvg
+table_A1_B1.xvg  table_A4_D.xvg      table_C1_D1.xvg
+table_A1_B2.xvg  table_A4_E1.xvg  table_B2_B2.xvg  table_C1_D.xvg
+table_A1_B3.xvg  table_A4_E.xvg   table_B2_B3.xvg  table_C1_E1.xvg
+table_A1_B4.xvg    table_B2_B4.xvg  table_C1_E.xvg
+table_A1_B5.xvg  table_A4_I.xvg   table_B2_B5.xvg  
+table_A1_B.xvg       table_B2_C1.xvg  table_C1_I.xvg
+table_A1_C1.xvg  table_A4_X.xvg   table_B2_C.xvg   table_C1_X.xvg
+table_A1_C2.xvg  table_A4_Y.xvg   table_B2_D1.xvg  table_C1_Y.xvg
+table_A1_C.xvg   table_A5_A5.xvg  table_B2_D.xvg   table_C_C1.xvg
+table_A1_D1.xvg  table_A5_B1.xvg  table_B2_E1.xvg  table_C_C.xvg
+table_A1_D.xvg   table_A5_B2.xvg  table_B2_E.xvg   table_C_D1.xvg
+table_A1_E1.xvg  table_A5_B3.xvg    table_C_D.xvg
+table_A1_E.xvg   table_A5_B4.xvg  table_B2_I.xvg   table_C_E1.xvg
+ table_A5_B5.xvg      table_C_E.xvg
+table_A1_I.xvg   table_A5_B.xvg   table_B2_X.xvg   
+table_a1.xvg     table_A5_C1.xvg  table_B2_Y.xvg   
+table_A1_X.xvg   table_A5_C.xvg   table_B3_B3.xvg  table_C_I.xvg
+table_A1_Y.xvg   table_A5_D1.xvg  table_B3_B4.xvg  table_C_X.xvg
+  table_A5_D.xvg   table_B3_B5.xvg  table_C_Y.xvg
+  table_A5_E1.xvg  table_B3_C1.xvg  table_D1_D1.xvg
+  table_A5_E.xvg   table_B3_C.xvg   table_D1_E1.xvg
+ table_B3_D1.xvg  table_D1_E.xvg
+  table_A5_I.xvg   table_B3_D.xvg   
+      table_B3_E1.xvg  table_D1_I.xvg
+    table_A5_X.xvg   table_B3_E.xvg   
+table_A2_A2.xvg  table_A5_Y.xvg   table_D1_X.xvg
+table_A2_A3.xvg      table_B3_I.xvg   table_D1_Y.xvg
+table_A2_A4.xvg          
+table_A2_A5.xvg     table_B3_X.xvg   
+table_A2_B1.xvg      table_B3_Y.xvg   table_D_D1.xvg
+table_A2_B2.xvg  table_A_A1.xvg   table_B4_B4.xvg  table_D_D.xvg
+table_A2_B3.xvg  table_A_A2.xvg   table_B4_B5.xvg  table_D_E1.xvg
+table_A2_B4.xvg  table_A_A3.xvg   table_B4_C1.xvg  table_D_E.xvg
+table_A2_B5.xvg  table_A_A4.xvg   table_B4_C.xvg   
+table_A2_B.xvg   table_A_A5.xvg   table_B4_D1.xvg  table_D_I.xvg
+table_A2_C1.xvg  table_A_A.xvg    table_B4_D.xvg   table_D_X.xvg
+table_A2_C.xvg   table_A_B1.xvg   table_B4_E1.xvg  table_D_Y.xvg
+table_A2_D1.xvg  table_A_B2.xvg   table_B4_E.xvg   table_E1_E1.xvg
+table_A2_D.xvg   table_A_B3.xvg   
+table_A2_E1.xvg  table_A_B4.xvg   table_B4_I.xvg   table_E1_I.xvg
+table_A2_E.xvg   table_A_B5.xvg     table_E1_X.xvg
+   table_B4_X.xvg   table_E1_Y.xvg
+table_A2_I.xvg        table_B4_Y.xvg   table_E_E1.xvg
+      table_B5_B5.xvg  table_E_E.xvg
+table_A2_X.xvg   table_A_B.xvg    table_B5_C1.xvg  
+table_A2_Y.xvg   table_A_C1.xvg   table_B5_C.xvg   table_E_I.xvg
+table_A3_A3.xvg  table_A_C2.xvg   table_B5_D1.xvg  table_E_X.xvg
+table_A3_A4.xvg  table_A_C.xvg    table_B5_D.xvg   table_E_Y.xvg
+table_A3_A5.xvg  table_A_D1.xvg   table_B5_E1.xvg  table_H_H.xvg
+table_A3_B1.xvg  table_A_D.xvg    table_B5_E.xvg   
+table_A3_B2.xvg  table_A_E1.xvg   
+table_A3_B3.xvg  table_A_E.xvg    table_B5_I.xvg   table_I_I.xvg
+table_A3_B4.xvg           
+table_A3_B5.xvg  table_B5_X.xvg   
+table_A3_B.xvg   table_A_I.xvg    table_B5_Y.xvg   table_X_I.xvg
+table_A3_C1.xvg  table_A_X.xvg         table_X_X.xvg
+table_A3_C.xvg   table_A_Y.xvg       table_X_Y.xvg
+table_A3_D1.xvg         
+table_A3_D.xvg            table_Y_I.xvg
+table_A3_E1.xvg  table_B1_B1.xvg  table_B_B1.xvg   table_Y_Y.xvg
+table_A3_E.xvg   table_B1_B2.xvg  table_B_B2.xvg   
+  table_B1_B3.xvg  table_B_B3.xvg
+
+
+
+</filelist>
+      <!-- do so many iterations -->
+      <iterations_max>300</iterations_max>
+            <!-- ibm: inverse biltzmann imc: inverse monte carlo -->
+      <method>ibi</method>
+      <!-- write log to this file -->
+      <log_file>inverse.log</log_file>
+      <!-- write restart step to this file -->
+      <restart_file>restart_points.log</restart_file>
+    </inverse>
+  </cg>
