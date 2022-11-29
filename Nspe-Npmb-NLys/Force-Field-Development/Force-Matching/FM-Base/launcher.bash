@@ -10,7 +10,7 @@ cd outputs/
 cp *.dist.new ../
 cd ../
 
-python launcher.py
+python launcher.py $1 $2
 
 
 
