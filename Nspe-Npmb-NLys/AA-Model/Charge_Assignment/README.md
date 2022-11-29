@@ -15,22 +15,22 @@ TC Set to +0.51
 O Set to -0.51  
 NH1 Set to -0.42  
 Backbone Ca Set to 0.03  
-Sidechain Ca (Only applicable to PME-O- and NLYS)  Set to -0.04  
+Sidechain Ca (Only applicable to Npmb and NLys)  Set to -0.04  
 
 
 # Some other points
 
-It is easy to identify the bacbone nitrogen, carbonyl carbon and the connected oxygen. However, it is not easy to spot the backbone alpha carbon and the side chain 
-alpha carbon. I used VMD to get all atom IDS. The associated hydrogens need to be documented too. 
+It is easy to identify the backbone nitrogen, carbonyl carbon and the connected oxygen. However, it is not easy to spot the backbone alpha carbon and the side chain 
+alpha carbon. I used VMD to get all atom IDs. The associated hydrogens need to be documented too. 
 
-These are my notes for P3:
+Extra notes for the sequence:
 
 
 1. Assign charge to Backbone Alpha Carbons = 0.03 and atom  ID=CT2
 
      Serial 1D = 3, 14, 25, 36, 47, 59, 70, 81, 82, 103, 114, 126
 
- 2. The Alpha carbon side chains for NLYS need to have a charge of -0.04, and atom ID= CT2
+ 2. The Alpha carbon side chains for NLys need to have a charge of -0.04, and atom ID= CT2
  
      Serial ID = 16 and 83
      
@@ -40,7 +40,7 @@ These are my notes for P3:
      
      Charges of Hydrogens are fine , i.e. 0.09
      
- 3. The Alpha carbon side chains for the Benzene-O- group should have a charge of -0.04, and atom ID= CT2
+ 3. The Alpha carbon side chains for the Npmb group should have a charge of -0.04, and atom ID= CT2
  
      Serial IDs = 116 and 49
      
@@ -50,6 +50,8 @@ These are my notes for P3:
      
    # How do you neutralize the net charge back to the desired value?
    
-   In the case of P3, the net charge should be +2. I chose the CG2R61 aromatic carbons to adjust the charges. Please see the excel sheet for more details.
+   In the case of the Nspe-Npmb-NLys sequence, the net charge should be +2. I chose the CG2R61 aromatic carbons to adjust the charges. Please see the excel sheet for more details.
    
    
+
+
