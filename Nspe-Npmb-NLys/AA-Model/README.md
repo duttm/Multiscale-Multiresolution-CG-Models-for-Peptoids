@@ -1,4 +1,13 @@
-# The Workflow is:
+# AA Model Development:
+
+The AA model development depends on tools and techniques developed by other labs:
+
+a. MFTOID: [[Paper](https://doi.org/10.1002/jcc.23478)]<br>
+b. CGenFF/PARAMCHEM: [[Paper](https://doi.org/10.1002/jcc.21367)][[Webserver](https://cgenff.umaryland.edu/)]<br>
+c. Zhao et al (Ferguson Group): [[Paper](https://dx.doi.org/10.1021/acs.jpcb.0c04567?ref=pdf)] <br>
+d. Wesier et al (Santiso Group): [[Paper](https://doi.org/10.1002/jcc.25850)]<br>
+
+## Our AA model development workflow:
 
 1. ChemDraw: Generate the chemical sequence and copy the SMILES code
 2. Avogadro: Paste the SMILES code -> generate the molecule-> relax it and remove overlaps -> dump .mol2 and .pdb files
