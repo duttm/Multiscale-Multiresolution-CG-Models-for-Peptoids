@@ -12,7 +12,7 @@ Our coarse-graining workflow is:
 
 4. [CG-Build-Input-Files](Nspe-Npmb-NLys/CG-Build-Input-Files): To run CG simulations, we need to create the CG input files. Since there are an excessive number of interactions in this peptoid, we employed scripts to automate the input file generation process. 
 
-5. [Force-Field-Development](Nspe-Npmb-NLys/Force-Field-Development): We have used Force Matching (FM) [[2](https://doi.org/10.1021/jp044629q)] and Iterative Boltzmann Inversion (IBI) [[3](https://doi.org/10.1002/1439-7641(20020916)3:9%3C754::AID-CPHC754%3E3.0.CO;2-U),[4](https://doi.org/10.1002/jcc.10307)]to derive CG potentials. Both coarse-graining technqiues are implememted using the VOTCA [[5](https://doi.org/10.1021/ct900369w)] package. 
+5. [Force-Field-Development](Nspe-Npmb-NLys/Force-Field-Development): We have used Force Matching (FM) [[2](https://doi.org/10.1021/jp044629q)] and Iterative Boltzmann Inversion (IBI) [[3](https://doi.org/10.1002/1439-7641(20020916)3:9%3C754::AID-CPHC754%3E3.0.CO;2-U),[4](https://doi.org/10.1002/jcc.10307)] to derive CG potentials. Both coarse-graining technqiues are implememted using the VOTCA [[5](https://doi.org/10.1021/ct900369w)] package. 
 
 6. [CG-Simulation](Nspe-Npmb-NLys/CG-Simulation): We have included files required to run a CG simulation for: a) a single peptoid system in aqueous solution and b) 64 peptoids in aqueous solution.  
 
