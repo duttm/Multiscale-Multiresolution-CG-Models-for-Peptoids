@@ -28,12 +28,16 @@ For example: if you want to see the 5th backbone bead, try:
 
 Output: 
 
+![5th backbone residue](BB5.png)
+
 
 Addtionally, if you want to see the 7th side chain residue, try: 
 
 ```./wrapper.bash  SC7```
 
 Output:
+
+![7th side chain residue](SC7.png)
 
 All runs will generate an *.xml file that can be processed by VOTCA. The visualization feature for inidvidual beads is for checking if we are doing the coarse-graining correctly. 
 
