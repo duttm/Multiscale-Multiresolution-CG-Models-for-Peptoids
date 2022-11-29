@@ -6,7 +6,7 @@ import matplotlib.pyplot as plt
 from mpl_toolkits import mplot3d
 
 ## The DFS code has been adapted from https://www.geeksforgeeks.org/depth-first-search-or-dfs-for-a-graph/
-## yes
+
 class Graph:
 
     # init function to declare class variables
