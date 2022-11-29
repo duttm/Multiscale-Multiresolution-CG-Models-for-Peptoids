@@ -1,0 +1,6 @@
+<cg_molecule>
+  <name>P3</name> <!-- the name of the molecule after mapping -->
+  <ident>SRUG</ident> <!-- the name of the molecule in atomistic topology -->
+  <topology>
+    <cg_beads>
+

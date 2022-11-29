@@ -5,7 +5,7 @@
     <cg_beads>
 
 <cg_bead>
-<name>BCG1</name>
+<name>CG1</name>
 <type>BB1</type>
 <mapping>BB1</mapping>
 <beads>
@@ -16,7 +16,7 @@
  
  
 <cg_bead>
-<name>BCG2</name>
+<name>CG2</name>
 <type>BB2</type>
 <mapping>BB2</mapping>
 <beads>
@@ -27,62 +27,18 @@
  
  
 <cg_bead>
-<name>SCG3</name>
+<name>CG3</name>
 <type>SC2</type>
 <mapping>SC2</mapping>
 <beads>
-1:SRUG:C3 1:SRUG:H11 
+1:SRUG:C3 1:SRUG:C4 1:SRUG:H12 1:SRUG:H13 1:SRUG:H14 1:SRUG:C5 1:SRUG:C6 1:SRUG:C7 1:SRUG:C8 1:SRUG:C9 1:SRUG:C10 1:SRUG:H19 1:SRUG:H18 1:SRUG:H17 1:SRUG:H16 1:SRUG:H15 1:SRUG:H11 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG4</name>
-<type>SC_2_1_1</type>
-<mapping>SC_2_1_1</mapping>
-<beads>
-1:SRUG:C4 1:SRUG:H12 1:SRUG:H13 1:SRUG:H14 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG5</name>
-<type>SC_2_2_1</type>
-<mapping>SC_2_2_1</mapping>
-<beads>
-1:SRUG:C5 1:SRUG:C6 1:SRUG:H15 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG6</name>
-<type>SC_2_2_2</type>
-<mapping>SC_2_2_2</mapping>
-<beads>
-1:SRUG:C7 1:SRUG:C8 1:SRUG:H17 1:SRUG:H16 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG7</name>
-<type>SC_2_2_3</type>
-<mapping>SC_2_2_3</mapping>
-<beads>
-1:SRUG:C9 1:SRUG:C10 1:SRUG:H19 1:SRUG:H18 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG8</name>
+<name>CG4</name>
 <type>BB3</type>
 <mapping>BB3</mapping>
 <beads>
@@ -93,40 +49,18 @@
  
  
 <cg_bead>
-<name>SCG9</name>
+<name>CG5</name>
 <type>SC3</type>
 <mapping>SC3</mapping>
 <beads>
-1:SRUG:C13 1:SRUG:H22 1:SRUG:H23 
+1:SRUG:C13 1:SRUG:C14 1:SRUG:C15 1:SRUG:C16 1:SRUG:N4 1:SRUG:H1 1:SRUG:H2 1:SRUG:H3 1:SRUG:H28 1:SRUG:H29 1:SRUG:H26 1:SRUG:H27 1:SRUG:H24 1:SRUG:H25 1:SRUG:H22 1:SRUG:H23 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG10</name>
-<type>SC_3_1_1</type>
-<mapping>SC_3_1_1</mapping>
-<beads>
-1:SRUG:C14 1:SRUG:C15 1:SRUG:H26 1:SRUG:H27 1:SRUG:H24 1:SRUG:H25 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG11</name>
-<type>SC_3_1_2</type>
-<mapping>SC_3_1_2</mapping>
-<beads>
-1:SRUG:C16 1:SRUG:N4 1:SRUG:H1 1:SRUG:H2 1:SRUG:H3 1:SRUG:H28 1:SRUG:H29 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG12</name>
+<name>CG6</name>
 <type>BB4</type>
 <mapping>BB4</mapping>
 <beads>
@@ -137,62 +71,18 @@
  
  
 <cg_bead>
-<name>SCG13</name>
+<name>CG7</name>
 <type>SC4</type>
 <mapping>SC4</mapping>
 <beads>
-1:SRUG:C19 1:SRUG:H32 
+1:SRUG:C19 1:SRUG:C20 1:SRUG:H33 1:SRUG:H34 1:SRUG:H35 1:SRUG:C21 1:SRUG:C22 1:SRUG:C23 1:SRUG:C24 1:SRUG:C25 1:SRUG:C26 1:SRUG:H40 1:SRUG:H39 1:SRUG:H38 1:SRUG:H37 1:SRUG:H36 1:SRUG:H32 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG14</name>
-<type>SC_4_1_1</type>
-<mapping>SC_4_1_1</mapping>
-<beads>
-1:SRUG:C20 1:SRUG:H33 1:SRUG:H34 1:SRUG:H35 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG15</name>
-<type>SC_4_2_1</type>
-<mapping>SC_4_2_1</mapping>
-<beads>
-1:SRUG:C21 1:SRUG:C22 1:SRUG:H36 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG16</name>
-<type>SC_4_2_2</type>
-<mapping>SC_4_2_2</mapping>
-<beads>
-1:SRUG:C23 1:SRUG:C24 1:SRUG:H38 1:SRUG:H37 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG17</name>
-<type>SC_4_2_3</type>
-<mapping>SC_4_2_3</mapping>
-<beads>
-1:SRUG:C25 1:SRUG:C26 1:SRUG:H40 1:SRUG:H39 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG18</name>
+<name>CG8</name>
 <type>BB5</type>
 <mapping>BB5</mapping>
 <beads>
@@ -203,62 +93,18 @@
  
  
 <cg_bead>
-<name>SCG19</name>
+<name>CG9</name>
 <type>SC5</type>
 <mapping>SC5</mapping>
 <beads>
-1:SRUG:C29 1:SRUG:H43 
+1:SRUG:C29 1:SRUG:C30 1:SRUG:C31 1:SRUG:C32 1:SRUG:C33 1:SRUG:C34 1:SRUG:C35 1:SRUG:H48 1:SRUG:H47 1:SRUG:H46 1:SRUG:H45 1:SRUG:H44 1:SRUG:C36 1:SRUG:H49 1:SRUG:H50 1:SRUG:H51 1:SRUG:H43 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG20</name>
-<type>SC_5_1_1</type>
-<mapping>SC_5_1_1</mapping>
-<beads>
-1:SRUG:C36 1:SRUG:H49 1:SRUG:H50 1:SRUG:H51 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG21</name>
-<type>SC_5_2_1</type>
-<mapping>SC_5_2_1</mapping>
-<beads>
-1:SRUG:C30 1:SRUG:C31 1:SRUG:H44 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG22</name>
-<type>SC_5_2_2</type>
-<mapping>SC_5_2_2</mapping>
-<beads>
-1:SRUG:C32 1:SRUG:C33 1:SRUG:H46 1:SRUG:H45 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG23</name>
-<type>SC_5_2_3</type>
-<mapping>SC_5_2_3</mapping>
-<beads>
-1:SRUG:C34 1:SRUG:C35 1:SRUG:H48 1:SRUG:H47 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG24</name>
+<name>CG10</name>
 <type>BB6</type>
 <mapping>BB6</mapping>
 <beads>
@@ -269,62 +115,18 @@
  
  
 <cg_bead>
-<name>SCG25</name>
+<name>CG11</name>
 <type>SC6</type>
 <mapping>SC6</mapping>
 <beads>
-1:SRUG:C39 1:SRUG:H54 1:SRUG:H55 
+1:SRUG:C39 1:SRUG:C40 1:SRUG:C41 1:SRUG:C42 1:SRUG:C43 1:SRUG:O1 1:SRUG:C44 1:SRUG:H58 1:SRUG:H59 1:SRUG:H60 1:SRUG:C45 1:SRUG:C46 1:SRUG:H62 1:SRUG:H61 1:SRUG:H57 1:SRUG:H56 1:SRUG:H54 1:SRUG:H55 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG26</name>
-<type>SC_6_1_1</type>
-<mapping>SC_6_1_1</mapping>
-<beads>
-1:SRUG:C40 1:SRUG:C41 1:SRUG:H56 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG27</name>
-<type>SC_6_1_2</type>
-<mapping>SC_6_1_2</mapping>
-<beads>
-1:SRUG:C42 1:SRUG:C43 1:SRUG:H57 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG28</name>
-<type>SC_6_1_3</type>
-<mapping>SC_6_1_3</mapping>
-<beads>
-1:SRUG:C45 1:SRUG:C46 1:SRUG:H62 1:SRUG:H61 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG29</name>
-<type>SC_6_2_1</type>
-<mapping>SC_6_2_1</mapping>
-<beads>
-1:SRUG:O1 1:SRUG:C44 1:SRUG:H58 1:SRUG:H59 1:SRUG:H60 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG30</name>
+<name>CG12</name>
 <type>BB7</type>
 <mapping>BB7</mapping>
 <beads>
@@ -335,62 +137,18 @@
  
  
 <cg_bead>
-<name>SCG31</name>
+<name>CG13</name>
 <type>SC7</type>
 <mapping>SC7</mapping>
 <beads>
-1:SRUG:C49 1:SRUG:H65 
+1:SRUG:C49 1:SRUG:C50 1:SRUG:C51 1:SRUG:C52 1:SRUG:C53 1:SRUG:C54 1:SRUG:C55 1:SRUG:H70 1:SRUG:H69 1:SRUG:H68 1:SRUG:H67 1:SRUG:H66 1:SRUG:C56 1:SRUG:H71 1:SRUG:H72 1:SRUG:H73 1:SRUG:H65 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG32</name>
-<type>SC_7_1_1</type>
-<mapping>SC_7_1_1</mapping>
-<beads>
-1:SRUG:C56 1:SRUG:H71 1:SRUG:H72 1:SRUG:H73 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG33</name>
-<type>SC_7_2_1</type>
-<mapping>SC_7_2_1</mapping>
-<beads>
-1:SRUG:C50 1:SRUG:C51 1:SRUG:H66 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG34</name>
-<type>SC_7_2_2</type>
-<mapping>SC_7_2_2</mapping>
-<beads>
-1:SRUG:C52 1:SRUG:C53 1:SRUG:H68 1:SRUG:H67 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG35</name>
-<type>SC_7_2_3</type>
-<mapping>SC_7_2_3</mapping>
-<beads>
-1:SRUG:C54 1:SRUG:C55 1:SRUG:H70 1:SRUG:H69 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG36</name>
+<name>CG14</name>
 <type>BB8</type>
 <mapping>BB8</mapping>
 <beads>
@@ -401,62 +159,18 @@
  
  
 <cg_bead>
-<name>SCG37</name>
+<name>CG15</name>
 <type>SC8</type>
 <mapping>SC8</mapping>
 <beads>
-1:SRUG:C59 1:SRUG:H76 
+1:SRUG:C59 1:SRUG:C60 1:SRUG:H77 1:SRUG:H78 1:SRUG:H79 1:SRUG:C61 1:SRUG:C62 1:SRUG:C63 1:SRUG:C64 1:SRUG:C65 1:SRUG:C66 1:SRUG:H84 1:SRUG:H83 1:SRUG:H82 1:SRUG:H81 1:SRUG:H80 1:SRUG:H76 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG38</name>
-<type>SC_8_1_1</type>
-<mapping>SC_8_1_1</mapping>
-<beads>
-1:SRUG:C60 1:SRUG:H77 1:SRUG:H78 1:SRUG:H79 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG39</name>
-<type>SC_8_2_1</type>
-<mapping>SC_8_2_1</mapping>
-<beads>
-1:SRUG:C61 1:SRUG:C62 1:SRUG:H80 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG40</name>
-<type>SC_8_2_2</type>
-<mapping>SC_8_2_2</mapping>
-<beads>
-1:SRUG:C63 1:SRUG:C64 1:SRUG:H82 1:SRUG:H81 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG41</name>
-<type>SC_8_2_3</type>
-<mapping>SC_8_2_3</mapping>
-<beads>
-1:SRUG:C65 1:SRUG:C66 1:SRUG:H84 1:SRUG:H83 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG42</name>
+<name>CG16</name>
 <type>BB9</type>
 <mapping>BB9</mapping>
 <beads>
@@ -467,40 +181,18 @@
  
  
 <cg_bead>
-<name>SCG43</name>
+<name>CG17</name>
 <type>SC9</type>
 <mapping>SC9</mapping>
 <beads>
-1:SRUG:C69 1:SRUG:H87 1:SRUG:H88 
+1:SRUG:C69 1:SRUG:C70 1:SRUG:C71 1:SRUG:C72 1:SRUG:N11 1:SRUG:H4 1:SRUG:H5 1:SRUG:H6 1:SRUG:H93 1:SRUG:H94 1:SRUG:H91 1:SRUG:H92 1:SRUG:H89 1:SRUG:H90 1:SRUG:H87 1:SRUG:H88 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG44</name>
-<type>SC_9_1_1</type>
-<mapping>SC_9_1_1</mapping>
-<beads>
-1:SRUG:C70 1:SRUG:C71 1:SRUG:H91 1:SRUG:H92 1:SRUG:H89 1:SRUG:H90 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG45</name>
-<type>SC_9_1_2</type>
-<mapping>SC_9_1_2</mapping>
-<beads>
-1:SRUG:C72 1:SRUG:N11 1:SRUG:H4 1:SRUG:H5 1:SRUG:H6 1:SRUG:H93 1:SRUG:H94 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG46</name>
+<name>CG18</name>
 <type>BB10</type>
 <mapping>BB10</mapping>
 <beads>
@@ -511,62 +203,18 @@
  
  
 <cg_bead>
-<name>SCG47</name>
+<name>CG19</name>
 <type>SC10</type>
 <mapping>SC10</mapping>
 <beads>
-1:SRUG:C75 1:SRUG:H97 
+1:SRUG:C75 1:SRUG:C76 1:SRUG:C77 1:SRUG:C78 1:SRUG:C79 1:SRUG:C80 1:SRUG:C81 1:SRUG:H102 1:SRUG:H101 1:SRUG:H100 1:SRUG:H99 1:SRUG:H98 1:SRUG:C82 1:SRUG:H103 1:SRUG:H104 1:SRUG:H105 1:SRUG:H97 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG48</name>
-<type>SC_10_1_1</type>
-<mapping>SC_10_1_1</mapping>
-<beads>
-1:SRUG:C82 1:SRUG:H103 1:SRUG:H104 1:SRUG:H105 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG49</name>
-<type>SC_10_2_1</type>
-<mapping>SC_10_2_1</mapping>
-<beads>
-1:SRUG:C76 1:SRUG:C77 1:SRUG:H98 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG50</name>
-<type>SC_10_2_2</type>
-<mapping>SC_10_2_2</mapping>
-<beads>
-1:SRUG:C78 1:SRUG:C79 1:SRUG:H100 1:SRUG:H99 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG51</name>
-<type>SC_10_2_3</type>
-<mapping>SC_10_2_3</mapping>
-<beads>
-1:SRUG:C80 1:SRUG:C81 1:SRUG:H102 1:SRUG:H101 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG52</name>
+<name>CG20</name>
 <type>BB11</type>
 <mapping>BB11</mapping>
 <beads>
@@ -577,62 +225,18 @@
  
  
 <cg_bead>
-<name>SCG53</name>
+<name>CG21</name>
 <type>SC11</type>
 <mapping>SC11</mapping>
 <beads>
-1:SRUG:C85 1:SRUG:H108 
+1:SRUG:C85 1:SRUG:C86 1:SRUG:C87 1:SRUG:C88 1:SRUG:C89 1:SRUG:C90 1:SRUG:C91 1:SRUG:H113 1:SRUG:H112 1:SRUG:H111 1:SRUG:H110 1:SRUG:H109 1:SRUG:C92 1:SRUG:H114 1:SRUG:H115 1:SRUG:H116 1:SRUG:H108 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG54</name>
-<type>SC_11_1_1</type>
-<mapping>SC_11_1_1</mapping>
-<beads>
-1:SRUG:C92 1:SRUG:H114 1:SRUG:H115 1:SRUG:H116 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG55</name>
-<type>SC_11_2_1</type>
-<mapping>SC_11_2_1</mapping>
-<beads>
-1:SRUG:C86 1:SRUG:C87 1:SRUG:H109 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG56</name>
-<type>SC_11_2_2</type>
-<mapping>SC_11_2_2</mapping>
-<beads>
-1:SRUG:C88 1:SRUG:C89 1:SRUG:H111 1:SRUG:H110 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG57</name>
-<type>SC_11_2_3</type>
-<mapping>SC_11_2_3</mapping>
-<beads>
-1:SRUG:C90 1:SRUG:C91 1:SRUG:H113 1:SRUG:H112 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG58</name>
+<name>CG22</name>
 <type>BB12</type>
 <mapping>BB12</mapping>
 <beads>
@@ -643,62 +247,18 @@
  
  
 <cg_bead>
-<name>SCG59</name>
+<name>CG23</name>
 <type>SC12</type>
 <mapping>SC12</mapping>
 <beads>
-1:SRUG:C95 1:SRUG:H119 1:SRUG:H120 
+1:SRUG:C95 1:SRUG:C96 1:SRUG:C97 1:SRUG:C98 1:SRUG:C99 1:SRUG:O2 1:SRUG:C100 1:SRUG:H123 1:SRUG:H124 1:SRUG:H125 1:SRUG:C101 1:SRUG:C102 1:SRUG:H127 1:SRUG:H126 1:SRUG:H122 1:SRUG:H121 1:SRUG:H119 1:SRUG:H120 
 </beads>
 </cg_bead>
 
  
  
 <cg_bead>
-<name>SCG60</name>
-<type>SC_12_1_1</type>
-<mapping>SC_12_1_1</mapping>
-<beads>
-1:SRUG:C96 1:SRUG:C97 1:SRUG:H121 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG61</name>
-<type>SC_12_1_2</type>
-<mapping>SC_12_1_2</mapping>
-<beads>
-1:SRUG:C98 1:SRUG:C99 1:SRUG:H122 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG62</name>
-<type>SC_12_1_3</type>
-<mapping>SC_12_1_3</mapping>
-<beads>
-1:SRUG:C101 1:SRUG:C102 1:SRUG:H127 1:SRUG:H126 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG63</name>
-<type>SC_12_2_1</type>
-<mapping>SC_12_2_1</mapping>
-<beads>
-1:SRUG:O2 1:SRUG:C100 1:SRUG:H123 1:SRUG:H124 1:SRUG:H125 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>BCG64</name>
+<name>CG24</name>
 <type>BB13</type>
 <mapping>BB13</mapping>
 <beads>
@@ -709,55 +269,11 @@
  
  
 <cg_bead>
-<name>SCG65</name>
+<name>CG25</name>
 <type>SC13</type>
 <mapping>SC13</mapping>
 <beads>
-1:SRUG:C105 1:SRUG:H131 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG66</name>
-<type>SC_13_1_1</type>
-<mapping>SC_13_1_1</mapping>
-<beads>
-1:SRUG:C112 1:SRUG:H137 1:SRUG:H138 1:SRUG:H139 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG67</name>
-<type>SC_13_2_1</type>
-<mapping>SC_13_2_1</mapping>
-<beads>
-1:SRUG:C106 1:SRUG:C107 1:SRUG:H132 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG68</name>
-<type>SC_13_2_2</type>
-<mapping>SC_13_2_2</mapping>
-<beads>
-1:SRUG:C108 1:SRUG:C109 1:SRUG:H134 1:SRUG:H133 
-</beads>
-</cg_bead>
-
- 
- 
-<cg_bead>
-<name>SCG69</name>
-<type>SC_13_2_3</type>
-<mapping>SC_13_2_3</mapping>
-<beads>
-1:SRUG:C110 1:SRUG:C111 1:SRUG:H136 1:SRUG:H135 
+1:SRUG:C105 1:SRUG:C106 1:SRUG:C107 1:SRUG:C108 1:SRUG:C109 1:SRUG:C110 1:SRUG:C111 1:SRUG:H136 1:SRUG:H135 1:SRUG:H134 1:SRUG:H133 1:SRUG:H132 1:SRUG:C112 1:SRUG:H137 1:SRUG:H138 1:SRUG:H139 1:SRUG:H131 
 </beads>
 </cg_bead>
 
@@ -797,43 +313,7 @@
 <map>
 <name>SC2</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_2_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_2_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_2_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_2_2_3</name>
-<weights>
-12 12 1 1 
+12 12 1 1 1 12 12 12 12 12 12 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -851,25 +331,7 @@
 <map>
 <name>SC3</name>
 <weights>
-12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_3_1_1</name>
-<weights>
-12 12 1 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_3_1_2</name>
-<weights>
-12 14 1 1 1 1 1 
+12 12 12 12 14 1 1 1 1 1 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -887,43 +349,7 @@
 <map>
 <name>SC4</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_4_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_4_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_4_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_4_2_3</name>
-<weights>
-12 12 1 1 
+12 12 1 1 1 12 12 12 12 12 12 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -941,43 +367,7 @@
 <map>
 <name>SC5</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_5_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_5_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_5_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_5_2_3</name>
-<weights>
-12 12 1 1 
+12 12 12 12 12 12 12 1 1 1 1 1 12 1 1 1 1 
 </weights>
 </map>
 
@@ -995,43 +385,7 @@
 <map>
 <name>SC6</name>
 <weights>
-12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_6_1_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_6_1_2</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_6_1_3</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_6_2_1</name>
-<weights>
-16 12 1 1 1 
+12 12 12 12 12 16 12 1 1 1 12 12 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -1049,43 +403,7 @@
 <map>
 <name>SC7</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_7_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_7_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_7_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_7_2_3</name>
-<weights>
-12 12 1 1 
+12 12 12 12 12 12 12 1 1 1 1 1 12 1 1 1 1 
 </weights>
 </map>
 
@@ -1103,43 +421,7 @@
 <map>
 <name>SC8</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_8_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_8_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_8_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_8_2_3</name>
-<weights>
-12 12 1 1 
+12 12 1 1 1 12 12 12 12 12 12 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -1157,25 +439,7 @@
 <map>
 <name>SC9</name>
 <weights>
-12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_9_1_1</name>
-<weights>
-12 12 1 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_9_1_2</name>
-<weights>
-12 14 1 1 1 1 1 
+12 12 12 12 14 1 1 1 1 1 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -1193,43 +457,7 @@
 <map>
 <name>SC10</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_10_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_10_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_10_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_10_2_3</name>
-<weights>
-12 12 1 1 
+12 12 12 12 12 12 12 1 1 1 1 1 12 1 1 1 1 
 </weights>
 </map>
 
@@ -1247,43 +475,7 @@
 <map>
 <name>SC11</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_11_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_11_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_11_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_11_2_3</name>
-<weights>
-12 12 1 1 
+12 12 12 12 12 12 12 1 1 1 1 1 12 1 1 1 1 
 </weights>
 </map>
 
@@ -1301,43 +493,7 @@
 <map>
 <name>SC12</name>
 <weights>
-12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_12_1_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_12_1_2</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_12_1_3</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_12_2_1</name>
-<weights>
-16 12 1 1 1 
+12 12 12 12 12 16 12 1 1 1 12 12 1 1 1 1 1 1 
 </weights>
 </map>
 
@@ -1355,43 +511,7 @@
 <map>
 <name>SC13</name>
 <weights>
-12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_13_1_1</name>
-<weights>
-12 1 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_13_2_1</name>
-<weights>
-12 12 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_13_2_2</name>
-<weights>
-12 12 1 1 
-</weights>
-</map>
-
- 
- 
-<map>
-<name>SC_13_2_3</name>
-<weights>
-12 12 1 1 
+12 12 12 12 12 12 12 1 1 1 1 1 12 1 1 1 1 
 </weights>
 </map>
 

@@ -1,0 +1,11 @@
+
+   
+   </cg_beads>
+ <cg_bonded>
+
+
+
+  </cg_bonded>
+
+  </topology>
+  <maps>

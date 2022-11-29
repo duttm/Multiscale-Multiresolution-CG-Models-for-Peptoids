@@ -334,9 +334,18 @@ def writemol(new_file, mass_file, filename_3):
         ### Write Main Topology
 
         file1.write("<cg_bead>"+'\n')
-        file1.write("<name>" + "CG" + str(count) + "</name>" + '\n')
+        
+     
+            
         new1 = x.split(' ')[0]
         new1 = new1.replace(":", "")
+        
+        if "B" in str(new1):
+            file1.write("<name>" + "BCG" + str(count) + "</name>" + '\n')
+            
+        else: 
+            file1.write("<name>" + "SCG" + str(count) + "</name>" + '\n')
+        
         file1.write("<type>" + str(new1) + "</type>" + '\n')
         file1.write("<mapping>" +  str(new1) + "</mapping>" + '\n')
         file1.write("<beads>" + '\n')
@@ -426,3 +435,6 @@ if __name__ == '__main__':
     new_file, mass_file = printline(array_2D, filename_3, a)
 
     writemol(new_file, mass_file, filename_3)
+    
+    ##last exec: 1. rm SC*.txt BB*.txt cg.txt mass.txt mol.txt masses.txt
+    ##           2. python  main.py srug_ini.gro 1 280 280 5 5 5 bonds_bb_sc.txt index_identifier.txt BB4
