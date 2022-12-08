@@ -18,7 +18,21 @@ Our coarse-graining workflow is:
 
 7. [CG-Analysis](Nspe-Npmb-NLys/CG-Analysis) : We analyze local and overall properties of the CG model. For example, we compare the end-to-end distance of the peptoid across AA and CG resolutions. 
 
+## Issues and Support
 
+If you believe you have found a bug, please open a ticket [here](https://github.com/duttm/Toolkit-for-automated-construction-and-analysis-of-dendronized-vesicles/issues)
+
+For other feedback, please send an email to the authors:
+
+Akash Banerjee (Graduate Student): akashbanerji@gmail.com
+
+Meenakshi Dutt (Principal Investigator): meenakshi.dutt@rutgers.edu 
+
+## Acknowledgements
+
+The developers gratefully acknowledge financial support from the National Science Foundation CAREER award DMR-1654325. 
+
+Thank you for using our coarse-graining toolkit!
 
 
 
