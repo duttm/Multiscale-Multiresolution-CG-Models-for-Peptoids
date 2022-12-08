@@ -20,7 +20,7 @@ Our coarse-graining workflow is:
 
 ## Issues and Support
 
-If you believe you have found a bug, please open a ticket [here](https://github.com/duttm/Toolkit-for-automated-construction-and-analysis-of-dendronized-vesicles/issues)
+If you believe you have found a bug, please open a ticket [here](https://github.com/duttm/Multiscale-Multiresolution-CG-Models-for-Peptoids/issues)
 
 For other feedback, please send an email to the authors:
 
