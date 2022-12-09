@@ -30,7 +30,7 @@ Meenakshi Dutt (Principal Investigator): meenakshi.dutt@rutgers.edu
 
 ## Acknowledgements
 
-The developers gratefully acknowledge financial support from the National Science Foundation CAREER award DMR-1654325. 
+The developers gratefully acknowledge financial support from the National Science Foundation (NSF) CAREER award DMR-1654325 and NSF OAC-1835449 
 
 Thank you for using our coarse-graining toolkit!
 
